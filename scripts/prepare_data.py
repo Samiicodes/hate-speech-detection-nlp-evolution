@@ -54,8 +54,8 @@ def main() -> int:
         print("  Use --rebuild-splits only if you intend to invalidate them.")
         splits = data.load_splits(split_path)
     else:
-        labelled = data.labelled_hatexplain()
-        splits = data.make_splits(labelled, config.DEFAULT_SPLIT)
+        stratified_on = data.labelled_hatexplain(task=config.SPLIT_TASK)
+        splits = data.make_splits(stratified_on, config.DEFAULT_SPLIT)
         data.save_splits(splits, split_path)
         print(f"\nSplits written to {split_path}")
 

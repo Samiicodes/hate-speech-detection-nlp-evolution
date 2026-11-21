@@ -150,6 +150,10 @@ class SplitConfig:
 
 DEFAULT_SPLIT = SplitConfig()
 
+# The split was stratified on the binary label before the task became three-class, and
+# every reported result was scored on it, so it is always built from the binary labels.
+SPLIT_TASK: TaskConfig = TASK_BINARY
+
 # Class names for the active task
 CLASS_NAMES: tuple[str, ...] = DEFAULT_TASK.class_names
 
