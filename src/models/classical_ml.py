@@ -3,7 +3,6 @@ from __future__ import annotations
 from typing import Literal, Sequence
 
 import numpy as np
-from sklearn.calibration import CalibratedClassifierCV
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import f1_score

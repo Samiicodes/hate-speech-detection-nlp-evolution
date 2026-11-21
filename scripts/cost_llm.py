@@ -41,7 +41,7 @@ def prefix_tokens(template: PromptTemplate, model: str) -> tuple[int, str]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    args = parser.parse_args()
+    parser.parse_args()
 
     task = config.DEFAULT_TASK
     _, val, test = data.get_dataset(task=task)
@@ -59,7 +59,7 @@ def main() -> int:
     print(f"  corpus tier   {scopes['corpus']:,} posts")
     print(f"  heldout tier  {scopes['heldout']:,} calls "
           f"(val {len(val)} + test {len(test)} + hatecheck {len(hatecheck)})")
-    print(f"  batch API     50% off input and output")
+    print("  batch API     50% off input and output")
     print(f"  prompt cache  needs a shared prefix >= {MIN_CACHEABLE_TOKENS} tokens")
 
     print("\n  shared prefix size (system message + any few-shot turns):")
@@ -75,7 +75,6 @@ def main() -> int:
     rows = []
     for tier, cfg in TIERS.items():
         model = cfg["model"]
-        n_calls = scopes[tier]
         texts = (
             corpus["text"].tolist() if tier == "corpus"
             else val["text"].tolist() + test["text"].tolist()

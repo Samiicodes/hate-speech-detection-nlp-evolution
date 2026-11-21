@@ -10,7 +10,6 @@ import numpy as np
 import pandas as pd
 import requests
 
-from . import config
 from .config import (
     DEFAULT_SPLIT,
     DEFAULT_TASK,

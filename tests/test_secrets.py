@@ -4,9 +4,8 @@ import re
 import subprocess
 from pathlib import Path
 
-import pytest
 
-from src.env import ENV_FILE, load_env
+from src.env import load_env
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 

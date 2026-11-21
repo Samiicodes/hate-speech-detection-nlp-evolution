@@ -6,7 +6,6 @@ import sys
 import time
 
 import numpy as np
-import pandas as pd
 
 from scripts.run_hatecheck_all import per_identity_reports, _write_tables
 from scripts.run_llm import estimate_cost

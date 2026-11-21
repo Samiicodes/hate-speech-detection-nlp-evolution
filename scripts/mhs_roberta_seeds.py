@@ -24,7 +24,6 @@ def main() -> int:
     from sklearn.metrics import f1_score
     from src.models.transformer import TransformerDetector
 
-    task = config.DEFAULT_TASK
     mhs = load()
     text = mhs.drop_duplicates("comment_id").set_index("comment_id")["text"].sort_index()
     targets = comment_targets(mhs, MAPPING).reindex(text.index)

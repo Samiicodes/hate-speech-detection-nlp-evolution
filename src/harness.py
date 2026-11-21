@@ -5,7 +5,6 @@ import platform
 import time
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
-from pathlib import Path
 from typing import Protocol, Sequence, runtime_checkable
 
 import numpy as np

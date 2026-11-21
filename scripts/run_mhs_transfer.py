@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 import time
 
@@ -168,7 +167,7 @@ def main() -> int:
     pd.DataFrame(corr).to_csv(config.RESULTS_DIR / "mhs_transfer_correlations.csv", index=False)
     pd.DataFrame(perf).to_csv(config.RESULTS_DIR / "mhs_transfer_performance.csv", index=False)
     tab.to_csv(config.RESULTS_DIR / "mhs_transfer_hate_share.csv")
-    print(f"\nwritten to results/mhs_transfer_*.csv")
+    print("\nwritten to results/mhs_transfer_*.csv")
     return 0
 
 

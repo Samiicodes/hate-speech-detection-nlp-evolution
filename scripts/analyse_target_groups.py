@@ -279,8 +279,8 @@ def main() -> int:
     top3 = conf.nlargest(3, "slur_rate")
     span = top3["human_hate_share"].max() - top3["human_hate_share"].min()
     print(
-        f"\n  Decisive comparison -- the three groups with the HIGHEST slur "
-        f"rates:\n"
+        "\n  Decisive comparison -- the three groups with the HIGHEST slur "
+        "rates:\n"
         + "".join(
             f"    {r['group']:12s} slur {_pct(r['slur_rate']):>5}%   "
             f"hate-share {_pct(r['human_hate_share']):>5}%   (n={r['n_hostile']})\n"

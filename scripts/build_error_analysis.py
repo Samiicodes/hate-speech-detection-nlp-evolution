@@ -6,7 +6,6 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-import pandas as pd
 
 from src import config, data
 from scripts.extract_false_positives import load_predictions, mask_slurs

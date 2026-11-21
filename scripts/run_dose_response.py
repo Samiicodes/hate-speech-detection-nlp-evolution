@@ -86,7 +86,7 @@ def main() -> int:
     print("=" * 100)
     print("DOSE-RESPONSE: label-dependence against corpus exposure")
     print("=" * 100)
-    print(f"  architecture   roberta-base, identical across all conditions")
+    print("  architecture   roberta-base, identical across all conditions")
     print(f"  folds          {folds.n_splits}, seed {args.seed}")
     print(f"  correction     IPF to {100 * wreport['target_hate_share']:.1f}% "
           f"hate-share, converged to {wreport['ipf_max_deviation']:.1e}")

@@ -5,7 +5,6 @@ import sys
 from collections import Counter
 
 import numpy as np
-import pandas as pd
 
 from src import config, crossval, data
 from src.groups import group_mask, human_hate_share, wilson
@@ -81,7 +80,7 @@ def main() -> int:
 
     # comparison groups
     if args.compare:
-        print(f"\n--- co-tag overlap with the comparison groups")
+        print("\n--- co-tag overlap with the comparison groups")
         for other in args.compare:
             both = mask & group_mask(corpus, other)
             print(f"  {g} & {other}: {int(both.sum())} posts "
