@@ -1,3 +1,54 @@
+[project]
+name = "hate-speech-detection-nlp-evolution"
+version = "1.0.0"
+description = "MSc dissertation code: five generations of NLP method compared on three-class hate speech detection, by target community and across two corpora."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Mohammad Sami Asghar" }]
+# Pins for the packages in the original requirements.txt are the versions the experiments ran
+# under. The rest were missing from it and resolve as of the submission date, see exclude-newer.
+dependencies = [
+    "anthropic==1.2.0",
+    "huggingface-hub",
+    "matplotlib",
+    "numpy==2.5.2",
+    "pandas==3.0.5",
+    "pillow",
+    "pyarrow",
+    "pyyaml==6.0.3",
+    "requests==2.34.2",
+    "scikit-learn==1.9.0",
+    "scipy==1.18.1",
+    "tabulate==0.9.0",
+]
+
+[project.optional-dependencies]
+# Only scripts/run_news_probe.py needs it, to fetch CNN/DailyMail
+news-probe = ["datasets"]
+
+[dependency-groups]
+dev = [
+    "pre-commit",
+    "pre-commit-hooks",
+    "pytest==9.1.1",
+    "ruff",
+]
+
+[tool.uv]
+package = false
+required-version = ">=0.13"
+exclude-newer = "2026-09-04T00:00:00Z"
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+# Pyflakes and syntax errors only: the code keeps the formatting it was submitted with
+select = ["E9", "F"]
+
 [tool.pytest.ini_options]
 # so `from src import ...` resolves no matter where pytest is invoked from
 pythonpath = ["."]
