@@ -1,0 +1,41 @@
+# Installed by make install. Run every hook by hand with: uv run pre-commit run --all-files
+#
+# The hooks check rather than rewrite: the code keeps the formatting it was submitted with.
+repos:
+  - repo: local
+    hooks:
+      - id: check-added-large-files
+        name: check for added large files
+        entry: uv run python -m pre_commit_hooks.check_added_large_files --maxkb=1000
+        language: system
+      - id: check-merge-conflict
+        name: check for merge conflicts
+        entry: uv run python -m pre_commit_hooks.check_merge_conflict
+        language: system
+        types: [text]
+      - id: check-toml
+        name: check toml
+        entry: uv run python -m pre_commit_hooks.check_toml
+        language: system
+        types: [toml]
+      - id: check-yaml
+        name: check yaml
+        entry: uv run python -m pre_commit_hooks.check_yaml
+        language: system
+        types: [yaml]
+      - id: detect-private-key
+        name: detect private key
+        entry: uv run python -m pre_commit_hooks.detect_private_key
+        language: system
+        types: [text]
+      - id: ruff-check
+        name: ruff check
+        entry: uv run ruff check
+        language: system
+        types_or: [python, pyi, jupyter]
+      - id: secrets-test
+        name: no credentials in tracked files
+        entry: uv run python -m pytest tests/test_secrets.py -q
+        language: system
+        pass_filenames: false
+        always_run: true

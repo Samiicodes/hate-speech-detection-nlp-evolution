@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Lint, test, and reproduce the CPU systems
+    runs-on: ubuntu-latest
+    env:
+      # The experiments ran under Python 3.13
+      UV_PYTHON: '3.13'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: '0.13.8'
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Lint
+        run: uv run ruff check .
+
+      - name: Download the corpora and rebuild the original split
+        run: uv run python -m scripts.prepare_data
+
+      - name: Test
+        run: uv run python -m pytest
+
+      - name: Rerun systems 1 to 3 against the archived results
+        run: uv run python -m scripts.check_reproduction
