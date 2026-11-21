@@ -1,0 +1,567 @@
+{
+  "top_k": 300,
+  "category_counts": {
+    "form:antisemitic": 1,
+    "form:racial_slur": 19,
+    "uncategorised": 187,
+    "severity:elimination_removal": 3,
+    "form:religious_nativist": 5,
+    "form:sexual_gendered": 9,
+    "severity:violence_threat": 5,
+    "form:orientation": 10,
+    "severity:dehumanisation": 2
+  },
+  "severity_fraction": 0.04149377593360996,
+  "form_fraction": 0.1825726141078838,
+  "biggest_gainers": [
+    {
+      "token": "bitches up",
+      "weight_corrected": 1.1462622755125553,
+      "weight_baseline": 0.7642169654330856,
+      "delta": 0.38204531007946974,
+      "category": "form:sexual_gendered"
+    },
+    {
+      "token": "whitesupreamist conspiracy",
+      "weight_corrected": 1.0969454299766506,
+      "weight_baseline": 0.7498702945317397,
+      "delta": 0.34707513544491086,
+      "category": "uncategorised"
+    },
+    {
+      "token": "hate white",
+      "weight_corrected": 1.93182236340981,
+      "weight_baseline": 1.6171406908890436,
+      "delta": 0.3146816725207664,
+      "category": "uncategorised"
+    },
+    {
+      "token": "user come",
+      "weight_corrected": 1.5086567569875013,
+      "weight_baseline": 1.19596654922298,
+      "delta": 0.3126902077645213,
+      "category": "uncategorised"
+    },
+    {
+      "token": "white trash",
+      "weight_corrected": 1.393858556609591,
+      "weight_baseline": 1.1286549462764106,
+      "delta": 0.2652036103331803,
+      "category": "uncategorised"
+    },
+    {
+      "token": "white honky",
+      "weight_corrected": 1.4745868295981197,
+      "weight_baseline": 1.221080056451781,
+      "delta": 0.25350677314633874,
+      "category": "uncategorised"
+    },
+    {
+      "token": "by refugee",
+      "weight_corrected": 1.2298170549219336,
+      "weight_baseline": 0.99454126604214,
+      "delta": 0.2352757888797936,
+      "category": "form:religious_nativist"
+    },
+    {
+      "token": "you hoe",
+      "weight_corrected": 0.9434731224655653,
+      "weight_baseline": 0.7142292163972677,
+      "delta": 0.2292439060682976,
+      "category": "form:sexual_gendered"
+    },
+    {
+      "token": "me sick",
+      "weight_corrected": 1.4096345624539146,
+      "weight_baseline": 1.1829276942918636,
+      "delta": 0.226706868162051,
+      "category": "uncategorised"
+    },
+    {
+      "token": "caucasians",
+      "weight_corrected": 0.8634802746393954,
+      "weight_baseline": 0.647629346054234,
+      "delta": 0.21585092858516142,
+      "category": "uncategorised"
+    },
+    {
+      "token": "coming here",
+      "weight_corrected": 0.8936464872111682,
+      "weight_baseline": 0.6819929302290253,
+      "delta": 0.21165355698214294,
+      "category": "uncategorised"
+    },
+    {
+      "token": "listen",
+      "weight_corrected": 0.9227620764859538,
+      "weight_baseline": 0.7150131071879945,
+      "delta": 0.20774896929795927,
+      "category": "uncategorised"
+    },
+    {
+      "token": "come back",
+      "weight_corrected": 1.1882140591403698,
+      "weight_baseline": 0.9808092623274791,
+      "delta": 0.2074047968128907,
+      "category": "uncategorised"
+    },
+    {
+      "token": "get her",
+      "weight_corrected": 0.9090816352598735,
+      "weight_baseline": 0.7250326231979688,
+      "delta": 0.18404901206190472,
+      "category": "uncategorised"
+    },
+    {
+      "token": "these white",
+      "weight_corrected": 0.9225930537832263,
+      "weight_baseline": 0.7441388985286752,
+      "delta": 0.1784541552545511,
+      "category": "uncategorised"
+    },
+    {
+      "token": "same punishment",
+      "weight_corrected": 0.7980638440848711,
+      "weight_baseline": 0.6202737286205254,
+      "delta": 0.17779011546434564,
+      "category": "uncategorised"
+    },
+    {
+      "token": "fuck them",
+      "weight_corrected": 0.8158141869525972,
+      "weight_baseline": 0.638625775135333,
+      "delta": 0.1771884118172642,
+      "category": "uncategorised"
+    },
+    {
+      "token": "cause am",
+      "weight_corrected": 0.816698537025857,
+      "weight_baseline": 0.6412355998691422,
+      "delta": 0.1754629371567148,
+      "category": "uncategorised"
+    },
+    {
+      "token": "you white",
+      "weight_corrected": 1.1522401229163557,
+      "weight_baseline": 0.979018614985669,
+      "delta": 0.1732215079306867,
+      "category": "uncategorised"
+    },
+    {
+      "token": "white nigger",
+      "weight_corrected": 1.0059397532648178,
+      "weight_baseline": 0.8346833683792336,
+      "delta": 0.17125638488558415,
+      "category": "form:racial_slur"
+    },
+    {
+      "token": "stop making",
+      "weight_corrected": 0.7894760004060618,
+      "weight_baseline": 0.6229241200889676,
+      "delta": 0.16655188031709423,
+      "category": "uncategorised"
+    },
+    {
+      "token": "conclusions",
+      "weight_corrected": 0.8364671807342999,
+      "weight_baseline": 0.6778922563283432,
+      "delta": 0.15857492440595677,
+      "category": "uncategorised"
+    },
+    {
+      "token": "violence but",
+      "weight_corrected": 1.1730887318684542,
+      "weight_baseline": 1.0162902781706098,
+      "delta": 0.1567984536978444,
+      "category": "uncategorised"
+    },
+    {
+      "token": "help but",
+      "weight_corrected": 0.793497216229051,
+      "weight_baseline": 0.6413203456867481,
+      "delta": 0.1521768705423029,
+      "category": "uncategorised"
+    },
+    {
+      "token": "obey the",
+      "weight_corrected": 0.9513601159011943,
+      "weight_baseline": 0.8055378529098883,
+      "delta": 0.14582226299130596,
+      "category": "uncategorised"
+    },
+    {
+      "token": "whore",
+      "weight_corrected": 0.9900363213464038,
+      "weight_baseline": 0.8476455515224005,
+      "delta": 0.14239076982400334,
+      "category": "form:sexual_gendered"
+    },
+    {
+      "token": "when she",
+      "weight_corrected": 1.1330977136348066,
+      "weight_baseline": 0.9920276486737845,
+      "delta": 0.14107006496102215,
+      "category": "uncategorised"
+    },
+    {
+      "token": "are just",
+      "weight_corrected": 1.0328905695632327,
+      "weight_baseline": 0.8931932113196387,
+      "delta": 0.13969735824359397,
+      "category": "uncategorised"
+    },
+    {
+      "token": "vsco",
+      "weight_corrected": 0.7848146045597766,
+      "weight_baseline": 0.6472796062700774,
+      "delta": 0.13753499828969917,
+      "category": "uncategorised"
+    },
+    {
+      "token": "is impossible",
+      "weight_corrected": 0.822048540426574,
+      "weight_baseline": 0.6858498131324793,
+      "delta": 0.13619872729409477,
+      "category": "uncategorised"
+    },
+    {
+      "token": "lmfao your",
+      "weight_corrected": 0.8448125489994452,
+      "weight_baseline": 0.7087016227729794,
+      "delta": 0.1361109262264658,
+      "category": "uncategorised"
+    },
+    {
+      "token": "white maggots",
+      "weight_corrected": 0.925443472714983,
+      "weight_baseline": 0.78939845030664,
+      "delta": 0.13604502240834293,
+      "category": "uncategorised"
+    },
+    {
+      "token": "piercings",
+      "weight_corrected": 0.7839591455780056,
+      "weight_baseline": 0.6534386904158181,
+      "delta": 0.13052045516218747,
+      "category": "uncategorised"
+    },
+    {
+      "token": "what do",
+      "weight_corrected": 0.7961065180010723,
+      "weight_baseline": 0.6674356316366002,
+      "delta": 0.1286708863644721,
+      "category": "uncategorised"
+    },
+    {
+      "token": "meaning of",
+      "weight_corrected": 1.1052565698839592,
+      "weight_baseline": 0.9780343758925669,
+      "delta": 0.12722219399139223,
+      "category": "uncategorised"
+    },
+    {
+      "token": "number million",
+      "weight_corrected": 1.0624866892680573,
+      "weight_baseline": 0.9402421898516353,
+      "delta": 0.12224449941642201,
+      "category": "uncategorised"
+    },
+    {
+      "token": "immigrant scum",
+      "weight_corrected": 0.7797421442898553,
+      "weight_baseline": 0.6588305172757327,
+      "delta": 0.12091162701412261,
+      "category": "severity:dehumanisation"
+    },
+    {
+      "token": "user get",
+      "weight_corrected": 1.2608821379055941,
+      "weight_baseline": 1.1409335936588532,
+      "delta": 0.11994854424674095,
+      "category": "uncategorised"
+    },
+    {
+      "token": "mm",
+      "weight_corrected": 1.0166594362999548,
+      "weight_baseline": 0.8994203369463538,
+      "delta": 0.117239099353601,
+      "category": "uncategorised"
+    },
+    {
+      "token": "brought to",
+      "weight_corrected": 0.8344359330195622,
+      "weight_baseline": 0.7183610782089882,
+      "delta": 0.116074854810574,
+      "category": "uncategorised"
+    }
+  ],
+  "per_group_vocabulary": [
+    {
+      "group": "jewish",
+      "n": 1804,
+      "severity_rate": 0.1762749445676275,
+      "form_rate": 0.7073170731707317,
+      "human_hate_share": 0.7721729490022173
+    },
+    {
+      "group": "african",
+      "n": 2965,
+      "severity_rate": 0.15379426644182126,
+      "form_rate": 0.7649241146711636,
+      "human_hate_share": 0.757504215851602
+    },
+    {
+      "group": "hispanic",
+      "n": 337,
+      "severity_rate": 0.22551928783382788,
+      "form_rate": 0.7507418397626113,
+      "human_hate_share": 0.7537091988130564
+    },
+    {
+      "group": "arab",
+      "n": 699,
+      "severity_rate": 0.23891273247496422,
+      "form_rate": 0.6380543633762518,
+      "human_hate_share": 0.7224606580829757
+    },
+    {
+      "group": "islam",
+      "n": 1815,
+      "severity_rate": 0.22920110192837465,
+      "form_rate": 0.5504132231404959,
+      "human_hate_share": 0.6595041322314049
+    },
+    {
+      "group": "asian",
+      "n": 298,
+      "severity_rate": 0.1040268456375839,
+      "form_rate": 0.32550335570469796,
+      "human_hate_share": 0.5469798657718121
+    },
+    {
+      "group": "homosexual",
+      "n": 1541,
+      "severity_rate": 0.08695652173913043,
+      "form_rate": 0.7942894224529526,
+      "human_hate_share": 0.46593121349772876
+    },
+    {
+      "group": "refugee",
+      "n": 533,
+      "severity_rate": 0.22326454033771106,
+      "form_rate": 0.849906191369606,
+      "human_hate_share": 0.32833020637898686
+    },
+    {
+      "group": "women",
+      "n": 1267,
+      "severity_rate": 0.08760852407261246,
+      "form_rate": 0.7466456195737964,
+      "human_hate_share": 0.2991318074191002
+    },
+    {
+      "group": "caucasian",
+      "n": 371,
+      "severity_rate": 0.09703504043126684,
+      "form_rate": 0.2884097035040431,
+      "human_hate_share": 0.2857142857142857
+    }
+  ],
+  "spearman_severity": 0.5151515151515151,
+  "spearman_severity_p": 0.1275528697032343,
+  "spearman_form": 0.12727272727272726,
+  "vocabularies": {
+    "severity": {
+      "dehumanisation": [
+        "vermin",
+        "rat",
+        "rats",
+        "roach",
+        "roaches",
+        "cockroach",
+        "cockroaches",
+        "parasite",
+        "parasites",
+        "subhuman",
+        "animal",
+        "animals",
+        "ape",
+        "apes",
+        "monkey",
+        "monkeys",
+        "filth",
+        "scum",
+        "sludge",
+        "disease",
+        "cancer",
+        "infestation",
+        "infest",
+        "plague",
+        "swine",
+        "pig",
+        "pigs",
+        "breed",
+        "breeding",
+        "degenerate",
+        "savage",
+        "savages",
+        "barbarian",
+        "primitive"
+      ],
+      "violence_threat": [
+        "kill",
+        "kills",
+        "killed",
+        "killing",
+        "murder",
+        "murdered",
+        "die",
+        "died",
+        "death",
+        "dead",
+        "hang",
+        "hanged",
+        "lynch",
+        "gas",
+        "gassed",
+        "gasses",
+        "exterminate",
+        "extermination",
+        "genocide",
+        "slaughter",
+        "shoot",
+        "shot",
+        "burn",
+        "burned",
+        "drown",
+        "behead",
+        "execute",
+        "execution",
+        "eliminate",
+        "purge",
+        "cleanse"
+      ],
+      "elimination_removal": [
+        "deport",
+        "deported",
+        "deportation",
+        "expel",
+        "expelled",
+        "remove",
+        "removal",
+        "round",
+        "roundup",
+        "camps",
+        "camp",
+        "wall",
+        "banish",
+        "exile",
+        "repatriate",
+        "ship",
+        "send"
+      ]
+    },
+    "form": {
+      "sexual_gendered": [
+        "bitch",
+        "bitches",
+        "whore",
+        "whores",
+        "slut",
+        "sluts",
+        "hoe",
+        "hoes",
+        "cunt",
+        "pussy",
+        "thot",
+        "rape",
+        "raped",
+        "rapist",
+        "tits",
+        "body",
+        "kitchen",
+        "sandwich",
+        "feminist",
+        "feminists",
+        "femoid",
+        "roastie"
+      ],
+      "racial_slur": [
+        "nigger",
+        "niggers",
+        "nigga",
+        "niggas",
+        "coon",
+        "coons",
+        "spic",
+        "spics",
+        "wetback",
+        "beaner",
+        "chink",
+        "chinks",
+        "gook",
+        "gooks",
+        "negro",
+        "darkie",
+        "jigaboo"
+      ],
+      "religious_nativist": [
+        "muzzie",
+        "muzzies",
+        "muzrat",
+        "raghead",
+        "ragheads",
+        "towelhead",
+        "jihad",
+        "jihadi",
+        "sharia",
+        "mosque",
+        "quran",
+        "allah",
+        "infidel",
+        "caliphate",
+        "terrorist",
+        "terrorists",
+        "islamist",
+        "immigration",
+        "immigrant",
+        "immigrants",
+        "refugee",
+        "refugees",
+        "invader",
+        "invaders"
+      ],
+      "antisemitic": [
+        "kike",
+        "kikes",
+        "zog",
+        "goy",
+        "goyim",
+        "shekel",
+        "shekels",
+        "holocaust",
+        "hooknose",
+        "merchant",
+        "zionist",
+        "globalist",
+        "globalists",
+        "rothschild"
+      ],
+      "orientation": [
+        "faggot",
+        "faggots",
+        "fag",
+        "fags",
+        "dyke",
+        "dykes",
+        "queer",
+        "queers",
+        "tranny",
+        "trannies",
+        "homo",
+        "sodomite",
+        "groomer"
+      ]
+    }
+  }
+}

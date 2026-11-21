@@ -1,0 +1,26 @@
+# secrets -- the only place a key may live, never tracked
+.env
+.env.*
+!.env.example
+
+# data is downloaded on demand, never committed
+data/
+
+# python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# model artefacts (can be large)
+artifacts/
+*.joblib
+*.pt
+*.bin
+
+# editors / os
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

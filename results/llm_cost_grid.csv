@@ -1,0 +1,17 @@
+tier,model,prompt,calls,batch,cache,input_$,output_$,total_$
+corpus,claude-haiku-4-5,zero_shot,19229,no,no,6.72,0.77,7.49
+corpus,claude-haiku-4-5,zero_shot,19229,no,n/a,6.72,0.77,7.49
+corpus,claude-haiku-4-5,zero_shot,19229,yes,no,3.36,0.38,3.74
+corpus,claude-haiku-4-5,zero_shot,19229,yes,n/a,3.36,0.38,3.74
+corpus,claude-haiku-4-5,few_shot,19229,no,no,12.77,0.77,13.54
+corpus,claude-haiku-4-5,few_shot,19229,no,n/a,12.77,0.77,13.54
+corpus,claude-haiku-4-5,few_shot,19229,yes,no,6.39,0.38,6.77
+corpus,claude-haiku-4-5,few_shot,19229,yes,n/a,6.39,0.38,6.77
+heldout,claude-opus-5,zero_shot,6252,no,no,10.86,40.64,51.5
+heldout,claude-opus-5,zero_shot,6252,no,n/a,10.86,40.64,51.5
+heldout,claude-opus-5,zero_shot,6252,yes,no,5.43,20.32,25.75
+heldout,claude-opus-5,zero_shot,6252,yes,n/a,5.43,20.32,25.75
+heldout,claude-opus-5,few_shot,6252,no,no,20.71,40.64,61.34
+heldout,claude-opus-5,few_shot,6252,no,n/a,20.71,40.64,61.34
+heldout,claude-opus-5,few_shot,6252,yes,no,10.35,20.32,30.67
+heldout,claude-opus-5,few_shot,6252,yes,n/a,10.35,20.32,30.67

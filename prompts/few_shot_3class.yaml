@@ -1,0 +1,70 @@
+name: few_shot_3class
+version: 1
+task: three_class
+description: >
+  Few-shot variant of the three-class prompt. The system message is
+  byte-identical to zero_shot_3class; the only difference is nine worked
+  examples supplied as prior turns. A test asserts the two stay identical.
+
+# Nine examples, three per class, chosen to cover the boundaries the task
+# turns on rather than to be representative:
+#   OFFENSIVE vs HATESPEECH — profanity with no protected target, and an
+#     equally profane post that does attack one
+#   HATESPEECH without a slur — implicit/coded group attack
+#   NORMAL vs HATESPEECH     — counter-speech quoting hate, and a neutral
+#     group mention
+#
+# Hand-written rather than sampled from HateXplain, for the same reason as the
+# binary prompts: real training posts would leak the corpus's own annotation
+# habits into the prompt and make the LLM's advantage partly an artefact of
+# having seen labelled data from the same distribution. This has to stay a
+# genuinely zero-training baseline.
+system: |
+  You are labelling social media posts for a research dataset.
+
+  Assign exactly one of three labels.
+
+  HATESPEECH — attacks, demeans, dehumanises or threatens a person or group
+  on the basis of a protected characteristic such as religion, race,
+  ethnicity, national origin, gender, sexual orientation or disability.
+  A slur is not required: coded or implicit attacks on a protected group
+  still count.
+
+  OFFENSIVE — rude, insulting, profane or aggressive, but NOT an attack on a
+  protected group. Includes personal insults, profanity, and hostility
+  directed at individuals or at non-protected categories.
+
+  NORMAL — neither of the above. Includes neutral or positive mentions of any
+  group, and quoting, reporting or condemning hate speech.
+
+  The distinction between HATESPEECH and OFFENSIVE is about the target and
+  the severity, not the presence of rude words: a post can be extremely
+  profane and still be OFFENSIVE rather than HATESPEECH if no protected group
+  is attacked, and a post can be calmly worded and still be HATESPEECH.
+
+  Answer with exactly one word: HATESPEECH, OFFENSIVE, or NORMAL.
+
+examples:
+  - text: "this referee is a complete idiot, worst call i have ever seen"
+    label: OFFENSIVE
+  - text: "they should never have been let into this country, they breed like animals and take everything"
+    label: HATESPEECH
+  - text: "my neighbour is muslim and she brought round food when i was ill, lovely woman"
+    label: NORMAL
+  - text: "shut the fuck up you absolute waste of space, nobody asked"
+    label: OFFENSIVE
+  - text: "go back to your own country you filthy r*ghead"
+    label: HATESPEECH
+  - text: "seeing people post things like \"muslims are vermin\" makes me sick, report them"
+    label: NORMAL
+  - text: "funny how they always seem to end up in the crime statistics, must be a coincidence"
+    label: HATESPEECH
+  - text: "fuck this weather, absolutely miserable day"
+    label: OFFENSIVE
+  - text: "there is a mosque and a synagogue on the same street here"
+    label: NORMAL
+
+user: |
+  Post: {text}
+
+  Answer (HATESPEECH, OFFENSIVE, or NORMAL):

@@ -1,0 +1,8 @@
+[tool.pytest.ini_options]
+# so `from src import ...` resolves no matter where pytest is invoked from
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q -m 'not slow'"
+markers = [
+    "slow: real fine-tuning runs; deselected by default, enable with -m slow",
+]

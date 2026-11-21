@@ -1,0 +1,199 @@
+{
+  "capability_floor": 0.5,
+  "spread_floor": 0.15,
+  "conditions": {
+    "frozen": {
+      "freeze_encoder": true,
+      "train_fraction": 1.0,
+      "lr": 0.001,
+      "label": "frozen encoder, head only",
+      "exposure": "head only"
+    },
+    "25pct": {
+      "freeze_encoder": false,
+      "train_fraction": 0.25,
+      "lr": 2e-05,
+      "label": "fine-tuned, 25% of train",
+      "exposure": "25%"
+    },
+    "50pct": {
+      "freeze_encoder": false,
+      "train_fraction": 0.5,
+      "lr": 2e-05,
+      "label": "fine-tuned, 50% of train",
+      "exposure": "50%"
+    },
+    "full": {
+      "freeze_encoder": false,
+      "train_fraction": 1.0,
+      "lr": 2e-05,
+      "label": "fine-tuned, 100% of train",
+      "exposure": "100%"
+    }
+  },
+  "correction": {
+    "method": "instance reweighting by iterative proportional fitting",
+    "target_hate_share": 0.5199299167761717,
+    "n_posts": 19229,
+    "n_reweighted": 9481,
+    "n_untouched": 9748,
+    "weight_min": 0.24313566168618717,
+    "weight_max": 7.38209746079282,
+    "weight_mean": 1.0,
+    "effective_sample_size": 16898.633697337467,
+    "ess_fraction": 0.8788098027634025,
+    "ipf_iterations": 10,
+    "ipf_max_deviation": 3.4402281023915293e-10,
+    "ipf_converged": true,
+    "multi_target_rule": "groups overlap, so targets are fitted jointly by IPF rather than applied independently",
+    "normal_posts": "weight 1 -- correction targets hate/offensive only",
+    "per_group": {
+      "jewish": {
+        "n_hate": 1393,
+        "n_offensive": 411,
+        "share_before": 0.7721729490022173,
+        "share_after": 0.5199299166566642,
+        "mean_w_hate": 0.7093522853967933,
+        "mean_w_offensive": 2.2198881977665583
+      },
+      "african": {
+        "n_hate": 2246,
+        "n_offensive": 719,
+        "share_before": 0.757504215851602,
+        "share_after": 0.5199299166057672,
+        "mean_w_hate": 0.7036782964478457,
+        "mean_w_offensive": 2.0296205585677574
+      },
+      "hispanic": {
+        "n_hate": 254,
+        "n_offensive": 83,
+        "share_before": 0.7537091988130564,
+        "share_after": 0.5199299164321489,
+        "mean_w_hate": 0.742042111437814,
+        "mean_w_offensive": 2.0967372584039907
+      },
+      "arab": {
+        "n_hate": 505,
+        "n_offensive": 194,
+        "share_before": 0.7224606580829757,
+        "share_after": 0.5199299165414997,
+        "mean_w_hate": 0.7447134940533198,
+        "mean_w_offensive": 1.789940962993249
+      },
+      "islam": {
+        "n_hate": 1197,
+        "n_offensive": 618,
+        "share_before": 0.6595041322314049,
+        "share_after": 0.5199299167078796,
+        "mean_w_hate": 0.8121362840395259,
+        "mean_w_offensive": 1.452427371168202
+      },
+      "asian": {
+        "n_hate": 163,
+        "n_offensive": 135,
+        "share_before": 0.5469798657718121,
+        "share_after": 0.51992991673191,
+        "mean_w_hate": 1.0441261001309774,
+        "mean_w_offensive": 1.1640365663158048
+      },
+      "homosexual": {
+        "n_hate": 718,
+        "n_offensive": 823,
+        "share_before": 0.46593121349772876,
+        "share_after": 0.5199299167352648,
+        "mean_w_hate": 1.1513648541851287,
+        "mean_w_offensive": 0.9274647503919888
+      },
+      "refugee": {
+        "n_hate": 175,
+        "n_offensive": 358,
+        "share_before": 0.32833020637898686,
+        "share_after": 0.5199299167606447,
+        "mean_w_hate": 1.6607359931236312,
+        "mean_w_offensive": 0.7495756249051106
+      },
+      "women": {
+        "n_hate": 379,
+        "n_offensive": 888,
+        "share_before": 0.2991318074191002,
+        "share_after": 0.5199299167711741,
+        "mean_w_hate": 1.7520620965584597,
+        "mean_w_offensive": 0.6904553097097413
+      },
+      "caucasian": {
+        "n_hate": 106,
+        "n_offensive": 265,
+        "share_before": 0.2857142857142857,
+        "share_after": 0.5199299167761716,
+        "mean_w_hate": 1.9594966694358147,
+        "mean_w_offensive": 0.7237096376416692
+      }
+    }
+  },
+  "results": [
+    {
+      "condition": "frozen",
+      "exposure": "head only",
+      "label": "frozen encoder, head only",
+      "lr": 0.001,
+      "macro_f1": 0.5637545800665861,
+      "baseline_rho": 0.9030303030303028,
+      "corrected_rho": 0.8060606060606059,
+      "delta_rho": -0.09696969696969693,
+      "rho_lost_pct": 10.738255033557042,
+      "base_spread": 0.43686907578791145,
+      "spread_removed_pct": 14.62805956656279,
+      "macro_f1_cost": -0.02737638551414623,
+      "interpretable": true,
+      "minutes": 9.886777873333388
+    },
+    {
+      "condition": "25pct",
+      "exposure": "25%",
+      "label": "fine-tuned, 25% of train",
+      "lr": 2e-05,
+      "macro_f1": 0.6547501135466764,
+      "baseline_rho": 0.9757575757575757,
+      "corrected_rho": 0.9272727272727272,
+      "delta_rho": -0.048484848484848464,
+      "rho_lost_pct": 4.968944099378881,
+      "base_spread": 0.525118981249287,
+      "spread_removed_pct": 12.127222674147308,
+      "macro_f1_cost": -0.0030780363311154746,
+      "interpretable": true,
+      "minutes": 10.508742561666683
+    },
+    {
+      "condition": "50pct",
+      "exposure": "50%",
+      "label": "fine-tuned, 50% of train",
+      "lr": 2e-05,
+      "macro_f1": 0.6779279404901417,
+      "baseline_rho": 0.9393939393939393,
+      "corrected_rho": 0.9151515151515152,
+      "delta_rho": -0.024242424242424176,
+      "rho_lost_pct": 2.580645161290318,
+      "base_spread": 0.5958404802744426,
+      "spread_removed_pct": 13.18162772607694,
+      "macro_f1_cost": -0.007145818887689281,
+      "interpretable": true,
+      "minutes": 20.05046032499983
+    },
+    {
+      "condition": "full",
+      "exposure": "100%",
+      "label": "fine-tuned, 100% of train",
+      "lr": 2e-05,
+      "macro_f1": 0.6919455005196729,
+      "baseline_rho": 0.9030303030303028,
+      "corrected_rho": 0.9030303030303028,
+      "delta_rho": 0.0,
+      "rho_lost_pct": 0.0,
+      "base_spread": 0.6149336226044735,
+      "spread_removed_pct": 17.161694699160503,
+      "macro_f1_cost": -0.002709928852348553,
+      "interpretable": true,
+      "minutes": 0.00016018166643334554
+    }
+  ]
+}

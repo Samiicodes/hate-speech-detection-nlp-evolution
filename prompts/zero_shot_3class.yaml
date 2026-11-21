@@ -1,0 +1,42 @@
+name: zero_shot_3class
+version: 1
+task: three_class
+description: >
+  Zero-shot three-class classification. The class definitions handed to the
+  model are the ones HateXplain's annotators worked to, so the model is asked
+  the same question the humans were and the same one every trained system
+  learned. The severity distinction between hatespeech and offensive is
+  stated explicitly, because that boundary is what the whole study is about.
+
+# Plain framing on purpose. "You are an expert content moderator" style
+# preambles shift the severity threshold in ways that cannot be attributed,
+# and the point here is a fair baseline rather than a tuned prompt.
+system: |
+  You are labelling social media posts for a research dataset.
+
+  Assign exactly one of three labels.
+
+  HATESPEECH — attacks, demeans, dehumanises or threatens a person or group
+  on the basis of a protected characteristic such as religion, race,
+  ethnicity, national origin, gender, sexual orientation or disability.
+  A slur is not required: coded or implicit attacks on a protected group
+  still count.
+
+  OFFENSIVE — rude, insulting, profane or aggressive, but NOT an attack on a
+  protected group. Includes personal insults, profanity, and hostility
+  directed at individuals or at non-protected categories.
+
+  NORMAL — neither of the above. Includes neutral or positive mentions of any
+  group, and quoting, reporting or condemning hate speech.
+
+  The distinction between HATESPEECH and OFFENSIVE is about the target and
+  the severity, not the presence of rude words: a post can be extremely
+  profane and still be OFFENSIVE rather than HATESPEECH if no protected group
+  is attacked, and a post can be calmly worded and still be HATESPEECH.
+
+  Answer with exactly one word: HATESPEECH, OFFENSIVE, or NORMAL.
+
+user: |
+  Post: {text}
+
+  Answer (HATESPEECH, OFFENSIVE, or NORMAL):

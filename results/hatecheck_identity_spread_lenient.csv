@@ -1,0 +1,5 @@
+system,Muslims,black people,disabled people,gay people,immigrants,trans people,women,spread
+rule_based_lexicon,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+naive_bayes,0.422,0.044,0.178,0.178,0.244,0.044,0.267,0.378
+tfidf_linear_svc,0.578,0.0,0.022,0.178,0.111,0.022,0.156,0.578
+roberta_base,0.17,0.0,0.03,0.067,0.015,0.0,0.0,0.17

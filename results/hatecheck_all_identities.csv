@@ -1,0 +1,1171 @@
+system,identity,functionality,gold,n,flag_rate_strict,flag_rate_lenient,pass_rate_strict
+rule_based_lexicon,all,counter_quote_nh,non-hateful,173.0,0.2138728323699422,0.5549132947976878,0.7861271676300579
+rule_based_lexicon,all,counter_ref_nh,non-hateful,141.0,0.04964539007092199,0.524822695035461,0.950354609929078
+rule_based_lexicon,all,derog_dehum_h,hateful,140.0,0.0,0.1,0.0
+rule_based_lexicon,all,derog_impl_h,hateful,140.0,0.0,0.2,0.0
+rule_based_lexicon,all,derog_neg_attrib_h,hateful,140.0,0.0,0.25,0.0
+rule_based_lexicon,all,derog_neg_emote_h,hateful,140.0,0.0,0.1,0.0
+rule_based_lexicon,all,ident_neutral_nh,non-hateful,126.0,0.0,0.0,1.0
+rule_based_lexicon,all,ident_pos_nh,non-hateful,189.0,0.0,0.0,1.0
+rule_based_lexicon,all,negate_neg_nh,non-hateful,133.0,0.0,0.42105263157894735,1.0
+rule_based_lexicon,all,negate_pos_h,hateful,140.0,0.0,0.05,0.0
+rule_based_lexicon,all,phrase_opinion_h,hateful,133.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,all,phrase_question_h,hateful,140.0,0.05,0.4,0.05
+rule_based_lexicon,all,profanity_h,hateful,140.0,0.05,0.45,0.05
+rule_based_lexicon,all,profanity_nh,non-hateful,100.0,0.05,0.45,0.95
+rule_based_lexicon,all,ref_subs_clause_h,hateful,140.0,0.05,0.35,0.05
+rule_based_lexicon,all,ref_subs_sent_h,hateful,133.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,all,slur_h,hateful,144.0,0.0,0.4375,0.0
+rule_based_lexicon,all,slur_homonym_nh,non-hateful,30.0,0.0,0.7666666666666667,1.0
+rule_based_lexicon,all,slur_reclaimed_nh,non-hateful,81.0,0.04938271604938271,0.7901234567901234,0.9506172839506173
+rule_based_lexicon,all,spell_char_del_h,hateful,140.0,0.05,0.15,0.05
+rule_based_lexicon,all,spell_char_swap_h,hateful,133.0,0.0,0.0,0.0
+rule_based_lexicon,all,spell_leet_h,hateful,173.0,0.0,0.0,0.0
+rule_based_lexicon,all,spell_space_add_h,hateful,173.0,0.0,0.16184971098265896,0.0
+rule_based_lexicon,all,spell_space_del_h,hateful,141.0,0.0,0.04964539007092199,0.0
+rule_based_lexicon,all,target_group_nh,non-hateful,62.0,0.03225806451612903,0.24193548387096775,0.967741935483871
+rule_based_lexicon,all,target_indiv_nh,non-hateful,65.0,0.046153846153846156,0.27692307692307694,0.9538461538461539
+rule_based_lexicon,all,target_obj_nh,non-hateful,65.0,0.03076923076923077,0.24615384615384617,0.9692307692307692
+rule_based_lexicon,all,threat_dir_h,hateful,133.0,0.05263157894736842,0.2631578947368421,0.05263157894736842
+rule_based_lexicon,all,threat_norm_h,hateful,140.0,0.1,0.25,0.1
+rule_based_lexicon,Muslims,counter_quote_nh,non-hateful,26.0,0.23076923076923078,0.5769230769230769,0.7692307692307693
+rule_based_lexicon,Muslims,counter_ref_nh,non-hateful,21.0,0.047619047619047616,0.5714285714285714,0.9523809523809523
+rule_based_lexicon,Muslims,derog_dehum_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,Muslims,derog_impl_h,hateful,20.0,0.0,0.2,0.0
+rule_based_lexicon,Muslims,derog_neg_attrib_h,hateful,20.0,0.0,0.25,0.0
+rule_based_lexicon,Muslims,derog_neg_emote_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,Muslims,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+rule_based_lexicon,Muslims,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+rule_based_lexicon,Muslims,negate_neg_nh,non-hateful,19.0,0.0,0.42105263157894735,1.0
+rule_based_lexicon,Muslims,negate_pos_h,hateful,20.0,0.0,0.05,0.0
+rule_based_lexicon,Muslims,phrase_opinion_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,Muslims,phrase_question_h,hateful,20.0,0.05,0.4,0.05
+rule_based_lexicon,Muslims,profanity_h,hateful,20.0,0.05,0.45,0.05
+rule_based_lexicon,Muslims,ref_subs_clause_h,hateful,20.0,0.05,0.35,0.05
+rule_based_lexicon,Muslims,ref_subs_sent_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,Muslims,slur_h,hateful,24.0,0.0,0.5416666666666666,0.0
+rule_based_lexicon,Muslims,spell_char_del_h,hateful,20.0,0.05,0.15,0.05
+rule_based_lexicon,Muslims,spell_char_swap_h,hateful,19.0,0.0,0.0,0.0
+rule_based_lexicon,Muslims,spell_leet_h,hateful,26.0,0.0,0.0,0.0
+rule_based_lexicon,Muslims,spell_space_add_h,hateful,26.0,0.0,0.15384615384615385,0.0
+rule_based_lexicon,Muslims,spell_space_del_h,hateful,21.0,0.0,0.047619047619047616,0.0
+rule_based_lexicon,Muslims,threat_dir_h,hateful,19.0,0.05263157894736842,0.2631578947368421,0.05263157894736842
+rule_based_lexicon,Muslims,threat_norm_h,hateful,20.0,0.1,0.25,0.1
+rule_based_lexicon,black people,counter_quote_nh,non-hateful,23.0,0.21739130434782608,0.5652173913043478,0.782608695652174
+rule_based_lexicon,black people,counter_ref_nh,non-hateful,19.0,0.05263157894736842,0.5263157894736842,0.9473684210526315
+rule_based_lexicon,black people,derog_dehum_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,black people,derog_impl_h,hateful,20.0,0.0,0.2,0.0
+rule_based_lexicon,black people,derog_neg_attrib_h,hateful,20.0,0.0,0.25,0.0
+rule_based_lexicon,black people,derog_neg_emote_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,black people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+rule_based_lexicon,black people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+rule_based_lexicon,black people,negate_neg_nh,non-hateful,19.0,0.0,0.42105263157894735,1.0
+rule_based_lexicon,black people,negate_pos_h,hateful,20.0,0.0,0.05,0.0
+rule_based_lexicon,black people,phrase_opinion_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,black people,phrase_question_h,hateful,20.0,0.05,0.4,0.05
+rule_based_lexicon,black people,profanity_h,hateful,20.0,0.05,0.45,0.05
+rule_based_lexicon,black people,ref_subs_clause_h,hateful,20.0,0.05,0.35,0.05
+rule_based_lexicon,black people,ref_subs_sent_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,black people,slur_h,hateful,16.0,0.0,0.5,0.0
+rule_based_lexicon,black people,slur_reclaimed_nh,non-hateful,19.0,0.05263157894736842,0.8947368421052632,0.9473684210526315
+rule_based_lexicon,black people,spell_char_del_h,hateful,20.0,0.05,0.15,0.05
+rule_based_lexicon,black people,spell_char_swap_h,hateful,19.0,0.0,0.0,0.0
+rule_based_lexicon,black people,spell_leet_h,hateful,23.0,0.0,0.0,0.0
+rule_based_lexicon,black people,spell_space_add_h,hateful,23.0,0.0,0.17391304347826086,0.0
+rule_based_lexicon,black people,spell_space_del_h,hateful,19.0,0.0,0.05263157894736842,0.0
+rule_based_lexicon,black people,threat_dir_h,hateful,19.0,0.05263157894736842,0.2631578947368421,0.05263157894736842
+rule_based_lexicon,black people,threat_norm_h,hateful,20.0,0.1,0.25,0.1
+rule_based_lexicon,disabled people,counter_quote_nh,non-hateful,26.0,0.19230769230769232,0.5384615384615384,0.8076923076923077
+rule_based_lexicon,disabled people,counter_ref_nh,non-hateful,21.0,0.047619047619047616,0.47619047619047616,0.9523809523809523
+rule_based_lexicon,disabled people,derog_dehum_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,disabled people,derog_impl_h,hateful,20.0,0.0,0.2,0.0
+rule_based_lexicon,disabled people,derog_neg_attrib_h,hateful,20.0,0.0,0.25,0.0
+rule_based_lexicon,disabled people,derog_neg_emote_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,disabled people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+rule_based_lexicon,disabled people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+rule_based_lexicon,disabled people,negate_neg_nh,non-hateful,19.0,0.0,0.42105263157894735,1.0
+rule_based_lexicon,disabled people,negate_pos_h,hateful,20.0,0.0,0.05,0.0
+rule_based_lexicon,disabled people,phrase_opinion_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,disabled people,phrase_question_h,hateful,20.0,0.05,0.4,0.05
+rule_based_lexicon,disabled people,profanity_h,hateful,20.0,0.05,0.45,0.05
+rule_based_lexicon,disabled people,ref_subs_clause_h,hateful,20.0,0.05,0.35,0.05
+rule_based_lexicon,disabled people,ref_subs_sent_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,disabled people,slur_h,hateful,24.0,0.0,0.3333333333333333,0.0
+rule_based_lexicon,disabled people,spell_char_del_h,hateful,20.0,0.05,0.15,0.05
+rule_based_lexicon,disabled people,spell_char_swap_h,hateful,19.0,0.0,0.0,0.0
+rule_based_lexicon,disabled people,spell_leet_h,hateful,26.0,0.0,0.0,0.0
+rule_based_lexicon,disabled people,spell_space_add_h,hateful,26.0,0.0,0.15384615384615385,0.0
+rule_based_lexicon,disabled people,spell_space_del_h,hateful,21.0,0.0,0.047619047619047616,0.0
+rule_based_lexicon,disabled people,threat_dir_h,hateful,19.0,0.05263157894736842,0.2631578947368421,0.05263157894736842
+rule_based_lexicon,disabled people,threat_norm_h,hateful,20.0,0.1,0.25,0.1
+rule_based_lexicon,gay people,counter_quote_nh,non-hateful,26.0,0.23076923076923078,0.6153846153846154,0.7692307692307693
+rule_based_lexicon,gay people,counter_ref_nh,non-hateful,21.0,0.047619047619047616,0.5714285714285714,0.9523809523809523
+rule_based_lexicon,gay people,derog_dehum_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,gay people,derog_impl_h,hateful,20.0,0.0,0.2,0.0
+rule_based_lexicon,gay people,derog_neg_attrib_h,hateful,20.0,0.0,0.25,0.0
+rule_based_lexicon,gay people,derog_neg_emote_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,gay people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+rule_based_lexicon,gay people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+rule_based_lexicon,gay people,negate_neg_nh,non-hateful,19.0,0.0,0.42105263157894735,1.0
+rule_based_lexicon,gay people,negate_pos_h,hateful,20.0,0.0,0.05,0.0
+rule_based_lexicon,gay people,phrase_opinion_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,gay people,phrase_question_h,hateful,20.0,0.05,0.4,0.05
+rule_based_lexicon,gay people,profanity_h,hateful,20.0,0.05,0.45,0.05
+rule_based_lexicon,gay people,ref_subs_clause_h,hateful,20.0,0.05,0.35,0.05
+rule_based_lexicon,gay people,ref_subs_sent_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,gay people,slur_h,hateful,24.0,0.0,0.6666666666666666,0.0
+rule_based_lexicon,gay people,slur_homonym_nh,non-hateful,20.0,0.0,0.7,1.0
+rule_based_lexicon,gay people,slur_reclaimed_nh,non-hateful,47.0,0.0425531914893617,0.6808510638297872,0.9574468085106383
+rule_based_lexicon,gay people,spell_char_del_h,hateful,20.0,0.05,0.15,0.05
+rule_based_lexicon,gay people,spell_char_swap_h,hateful,19.0,0.0,0.0,0.0
+rule_based_lexicon,gay people,spell_leet_h,hateful,26.0,0.0,0.0,0.0
+rule_based_lexicon,gay people,spell_space_add_h,hateful,26.0,0.0,0.15384615384615385,0.0
+rule_based_lexicon,gay people,spell_space_del_h,hateful,21.0,0.0,0.047619047619047616,0.0
+rule_based_lexicon,gay people,threat_dir_h,hateful,19.0,0.05263157894736842,0.2631578947368421,0.05263157894736842
+rule_based_lexicon,gay people,threat_norm_h,hateful,20.0,0.1,0.25,0.1
+rule_based_lexicon,immigrants,counter_quote_nh,non-hateful,23.0,0.17391304347826086,0.4782608695652174,0.8260869565217391
+rule_based_lexicon,immigrants,counter_ref_nh,non-hateful,19.0,0.05263157894736842,0.42105263157894735,0.9473684210526315
+rule_based_lexicon,immigrants,derog_dehum_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,immigrants,derog_impl_h,hateful,20.0,0.0,0.2,0.0
+rule_based_lexicon,immigrants,derog_neg_attrib_h,hateful,20.0,0.0,0.25,0.0
+rule_based_lexicon,immigrants,derog_neg_emote_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,immigrants,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+rule_based_lexicon,immigrants,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+rule_based_lexicon,immigrants,negate_neg_nh,non-hateful,19.0,0.0,0.42105263157894735,1.0
+rule_based_lexicon,immigrants,negate_pos_h,hateful,20.0,0.0,0.05,0.0
+rule_based_lexicon,immigrants,phrase_opinion_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,immigrants,phrase_question_h,hateful,20.0,0.05,0.4,0.05
+rule_based_lexicon,immigrants,profanity_h,hateful,20.0,0.05,0.45,0.05
+rule_based_lexicon,immigrants,ref_subs_clause_h,hateful,20.0,0.05,0.35,0.05
+rule_based_lexicon,immigrants,ref_subs_sent_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,immigrants,slur_h,hateful,16.0,0.0,0.0,0.0
+rule_based_lexicon,immigrants,spell_char_del_h,hateful,20.0,0.05,0.15,0.05
+rule_based_lexicon,immigrants,spell_char_swap_h,hateful,19.0,0.0,0.0,0.0
+rule_based_lexicon,immigrants,spell_leet_h,hateful,23.0,0.0,0.0,0.0
+rule_based_lexicon,immigrants,spell_space_add_h,hateful,23.0,0.0,0.17391304347826086,0.0
+rule_based_lexicon,immigrants,spell_space_del_h,hateful,19.0,0.0,0.05263157894736842,0.0
+rule_based_lexicon,immigrants,threat_dir_h,hateful,19.0,0.05263157894736842,0.2631578947368421,0.05263157894736842
+rule_based_lexicon,immigrants,threat_norm_h,hateful,20.0,0.1,0.25,0.1
+rule_based_lexicon,trans people,counter_quote_nh,non-hateful,23.0,0.17391304347826086,0.4782608695652174,0.8260869565217391
+rule_based_lexicon,trans people,counter_ref_nh,non-hateful,19.0,0.05263157894736842,0.42105263157894735,0.9473684210526315
+rule_based_lexicon,trans people,derog_dehum_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,trans people,derog_impl_h,hateful,20.0,0.0,0.2,0.0
+rule_based_lexicon,trans people,derog_neg_attrib_h,hateful,20.0,0.0,0.25,0.0
+rule_based_lexicon,trans people,derog_neg_emote_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,trans people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+rule_based_lexicon,trans people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+rule_based_lexicon,trans people,negate_neg_nh,non-hateful,19.0,0.0,0.42105263157894735,1.0
+rule_based_lexicon,trans people,negate_pos_h,hateful,20.0,0.0,0.05,0.0
+rule_based_lexicon,trans people,phrase_opinion_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,trans people,phrase_question_h,hateful,20.0,0.05,0.4,0.05
+rule_based_lexicon,trans people,profanity_h,hateful,20.0,0.05,0.45,0.05
+rule_based_lexicon,trans people,ref_subs_clause_h,hateful,20.0,0.05,0.35,0.05
+rule_based_lexicon,trans people,ref_subs_sent_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,trans people,slur_h,hateful,16.0,0.0,0.0,0.0
+rule_based_lexicon,trans people,spell_char_del_h,hateful,20.0,0.05,0.15,0.05
+rule_based_lexicon,trans people,spell_char_swap_h,hateful,19.0,0.0,0.0,0.0
+rule_based_lexicon,trans people,spell_leet_h,hateful,23.0,0.0,0.0,0.0
+rule_based_lexicon,trans people,spell_space_add_h,hateful,23.0,0.0,0.17391304347826086,0.0
+rule_based_lexicon,trans people,spell_space_del_h,hateful,19.0,0.0,0.05263157894736842,0.0
+rule_based_lexicon,trans people,threat_dir_h,hateful,19.0,0.05263157894736842,0.2631578947368421,0.05263157894736842
+rule_based_lexicon,trans people,threat_norm_h,hateful,20.0,0.1,0.25,0.1
+rule_based_lexicon,women,counter_quote_nh,non-hateful,26.0,0.2692307692307692,0.6153846153846154,0.7307692307692307
+rule_based_lexicon,women,counter_ref_nh,non-hateful,21.0,0.047619047619047616,0.6666666666666666,0.9523809523809523
+rule_based_lexicon,women,derog_dehum_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,women,derog_impl_h,hateful,20.0,0.0,0.2,0.0
+rule_based_lexicon,women,derog_neg_attrib_h,hateful,20.0,0.0,0.25,0.0
+rule_based_lexicon,women,derog_neg_emote_h,hateful,20.0,0.0,0.1,0.0
+rule_based_lexicon,women,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+rule_based_lexicon,women,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+rule_based_lexicon,women,negate_neg_nh,non-hateful,19.0,0.0,0.42105263157894735,1.0
+rule_based_lexicon,women,negate_pos_h,hateful,20.0,0.0,0.05,0.0
+rule_based_lexicon,women,phrase_opinion_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,women,phrase_question_h,hateful,20.0,0.05,0.4,0.05
+rule_based_lexicon,women,profanity_h,hateful,20.0,0.05,0.45,0.05
+rule_based_lexicon,women,ref_subs_clause_h,hateful,20.0,0.05,0.35,0.05
+rule_based_lexicon,women,ref_subs_sent_h,hateful,19.0,0.05263157894736842,0.42105263157894735,0.05263157894736842
+rule_based_lexicon,women,slur_h,hateful,24.0,0.0,0.75,0.0
+rule_based_lexicon,women,slur_homonym_nh,non-hateful,10.0,0.0,0.9,1.0
+rule_based_lexicon,women,slur_reclaimed_nh,non-hateful,15.0,0.06666666666666667,1.0,0.9333333333333333
+rule_based_lexicon,women,spell_char_del_h,hateful,20.0,0.05,0.15,0.05
+rule_based_lexicon,women,spell_char_swap_h,hateful,19.0,0.0,0.0,0.0
+rule_based_lexicon,women,spell_leet_h,hateful,26.0,0.0,0.0,0.0
+rule_based_lexicon,women,spell_space_add_h,hateful,26.0,0.0,0.15384615384615385,0.0
+rule_based_lexicon,women,spell_space_del_h,hateful,21.0,0.0,0.047619047619047616,0.0
+rule_based_lexicon,women,threat_dir_h,hateful,19.0,0.05263157894736842,0.2631578947368421,0.05263157894736842
+rule_based_lexicon,women,threat_norm_h,hateful,20.0,0.1,0.25,0.1
+naive_bayes,all,counter_quote_nh,non-hateful,173.0,0.1791907514450867,0.44508670520231214,0.8208092485549133
+naive_bayes,all,counter_ref_nh,non-hateful,141.0,0.11347517730496454,0.44680851063829785,0.8865248226950354
+naive_bayes,all,derog_dehum_h,hateful,140.0,0.35,0.7142857142857143,0.35
+naive_bayes,all,derog_impl_h,hateful,140.0,0.24285714285714285,0.29285714285714287,0.24285714285714285
+naive_bayes,all,derog_neg_attrib_h,hateful,140.0,0.15,0.4857142857142857,0.15
+naive_bayes,all,derog_neg_emote_h,hateful,140.0,0.15,0.2642857142857143,0.15
+naive_bayes,all,ident_neutral_nh,non-hateful,126.0,0.03968253968253968,0.10317460317460317,0.9603174603174603
+naive_bayes,all,ident_pos_nh,non-hateful,189.0,0.06878306878306878,0.25925925925925924,0.9312169312169312
+naive_bayes,all,negate_neg_nh,non-hateful,133.0,0.13533834586466165,0.3458646616541353,0.8646616541353384
+naive_bayes,all,negate_pos_h,hateful,140.0,0.12857142857142856,0.3142857142857143,0.12857142857142856
+naive_bayes,all,phrase_opinion_h,hateful,133.0,0.17293233082706766,0.5037593984962406,0.17293233082706766
+naive_bayes,all,phrase_question_h,hateful,140.0,0.12857142857142856,0.4,0.12857142857142856
+naive_bayes,all,profanity_h,hateful,140.0,0.2642857142857143,0.7071428571428572,0.2642857142857143
+naive_bayes,all,profanity_nh,non-hateful,100.0,0.44,0.76,0.56
+naive_bayes,all,ref_subs_clause_h,hateful,140.0,0.16428571428571428,0.45714285714285713,0.16428571428571428
+naive_bayes,all,ref_subs_sent_h,hateful,133.0,0.03759398496240601,0.6165413533834586,0.03759398496240601
+naive_bayes,all,slur_h,hateful,144.0,0.6319444444444444,0.8333333333333334,0.6319444444444444
+naive_bayes,all,slur_homonym_nh,non-hateful,30.0,0.3333333333333333,0.7,0.6666666666666666
+naive_bayes,all,slur_reclaimed_nh,non-hateful,81.0,0.14814814814814814,0.43209876543209874,0.8518518518518519
+naive_bayes,all,spell_char_del_h,hateful,140.0,0.2714285714285714,0.5142857142857142,0.2714285714285714
+naive_bayes,all,spell_char_swap_h,hateful,133.0,0.05263157894736842,0.21052631578947367,0.05263157894736842
+naive_bayes,all,spell_leet_h,hateful,173.0,0.2254335260115607,0.35260115606936415,0.2254335260115607
+naive_bayes,all,spell_space_add_h,hateful,173.0,0.2254335260115607,0.31213872832369943,0.2254335260115607
+naive_bayes,all,spell_space_del_h,hateful,141.0,0.2695035460992908,0.41134751773049644,0.2695035460992908
+naive_bayes,all,target_group_nh,non-hateful,62.0,0.46774193548387094,0.7419354838709677,0.532258064516129
+naive_bayes,all,target_indiv_nh,non-hateful,65.0,0.5384615384615384,0.7384615384615385,0.46153846153846156
+naive_bayes,all,target_obj_nh,non-hateful,65.0,0.46153846153846156,0.8,0.5384615384615384
+naive_bayes,all,threat_dir_h,hateful,133.0,0.09774436090225563,0.20300751879699247,0.09774436090225563
+naive_bayes,all,threat_norm_h,hateful,140.0,0.17142857142857143,0.30714285714285716,0.17142857142857143
+naive_bayes,Muslims,counter_quote_nh,non-hateful,26.0,0.5,0.6538461538461539,0.5
+naive_bayes,Muslims,counter_ref_nh,non-hateful,21.0,0.3333333333333333,0.5714285714285714,0.6666666666666666
+naive_bayes,Muslims,derog_dehum_h,hateful,20.0,0.8,1.0,0.8
+naive_bayes,Muslims,derog_impl_h,hateful,20.0,0.55,0.55,0.55
+naive_bayes,Muslims,derog_neg_attrib_h,hateful,20.0,0.35,0.85,0.35
+naive_bayes,Muslims,derog_neg_emote_h,hateful,20.0,0.6,0.85,0.6
+naive_bayes,Muslims,ident_neutral_nh,non-hateful,18.0,0.16666666666666666,0.2777777777777778,0.8333333333333334
+naive_bayes,Muslims,ident_pos_nh,non-hateful,27.0,0.37037037037037035,0.5185185185185185,0.6296296296296297
+naive_bayes,Muslims,negate_neg_nh,non-hateful,19.0,0.2631578947368421,0.5789473684210527,0.7368421052631579
+naive_bayes,Muslims,negate_pos_h,hateful,20.0,0.4,0.7,0.4
+naive_bayes,Muslims,phrase_opinion_h,hateful,19.0,0.5789473684210527,0.7894736842105263,0.5789473684210527
+naive_bayes,Muslims,phrase_question_h,hateful,20.0,0.25,0.7,0.25
+naive_bayes,Muslims,profanity_h,hateful,20.0,0.65,1.0,0.65
+naive_bayes,Muslims,ref_subs_clause_h,hateful,20.0,0.45,0.7,0.45
+naive_bayes,Muslims,ref_subs_sent_h,hateful,19.0,0.2631578947368421,0.8421052631578947,0.2631578947368421
+naive_bayes,Muslims,slur_h,hateful,24.0,0.75,0.8333333333333334,0.75
+naive_bayes,Muslims,spell_char_del_h,hateful,20.0,0.45,0.75,0.45
+naive_bayes,Muslims,spell_char_swap_h,hateful,19.0,0.3157894736842105,0.5789473684210527,0.3157894736842105
+naive_bayes,Muslims,spell_leet_h,hateful,26.0,0.3076923076923077,0.5769230769230769,0.3076923076923077
+naive_bayes,Muslims,spell_space_add_h,hateful,26.0,0.38461538461538464,0.6153846153846154,0.38461538461538464
+naive_bayes,Muslims,spell_space_del_h,hateful,21.0,0.42857142857142855,0.8095238095238095,0.42857142857142855
+naive_bayes,Muslims,threat_dir_h,hateful,19.0,0.42105263157894735,0.5789473684210527,0.42105263157894735
+naive_bayes,Muslims,threat_norm_h,hateful,20.0,0.55,0.65,0.55
+naive_bayes,black people,counter_quote_nh,non-hateful,23.0,0.2608695652173913,0.4782608695652174,0.7391304347826086
+naive_bayes,black people,counter_ref_nh,non-hateful,19.0,0.15789473684210525,0.47368421052631576,0.8421052631578947
+naive_bayes,black people,derog_dehum_h,hateful,20.0,0.4,0.7,0.4
+naive_bayes,black people,derog_impl_h,hateful,20.0,0.2,0.25,0.2
+naive_bayes,black people,derog_neg_attrib_h,hateful,20.0,0.15,0.25,0.15
+naive_bayes,black people,derog_neg_emote_h,hateful,20.0,0.1,0.15,0.1
+naive_bayes,black people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+naive_bayes,black people,ident_pos_nh,non-hateful,27.0,0.0,0.07407407407407407,1.0
+naive_bayes,black people,negate_neg_nh,non-hateful,19.0,0.10526315789473684,0.2631578947368421,0.8947368421052632
+naive_bayes,black people,negate_pos_h,hateful,20.0,0.0,0.1,0.0
+naive_bayes,black people,phrase_opinion_h,hateful,19.0,0.15789473684210525,0.3684210526315789,0.15789473684210525
+naive_bayes,black people,phrase_question_h,hateful,20.0,0.05,0.25,0.05
+naive_bayes,black people,profanity_h,hateful,20.0,0.25,0.6,0.25
+naive_bayes,black people,ref_subs_clause_h,hateful,20.0,0.15,0.35,0.15
+naive_bayes,black people,ref_subs_sent_h,hateful,19.0,0.0,0.5263157894736842,0.0
+naive_bayes,black people,slur_h,hateful,16.0,1.0,1.0,1.0
+naive_bayes,black people,slur_reclaimed_nh,non-hateful,19.0,0.05263157894736842,0.10526315789473684,0.9473684210526315
+naive_bayes,black people,spell_char_del_h,hateful,20.0,0.2,0.35,0.2
+naive_bayes,black people,spell_char_swap_h,hateful,19.0,0.0,0.10526315789473684,0.0
+naive_bayes,black people,spell_leet_h,hateful,23.0,0.17391304347826086,0.2608695652173913,0.17391304347826086
+naive_bayes,black people,spell_space_add_h,hateful,23.0,0.13043478260869565,0.17391304347826086,0.13043478260869565
+naive_bayes,black people,spell_space_del_h,hateful,19.0,0.2631578947368421,0.2631578947368421,0.2631578947368421
+naive_bayes,black people,threat_dir_h,hateful,19.0,0.0,0.10526315789473684,0.0
+naive_bayes,black people,threat_norm_h,hateful,20.0,0.15,0.25,0.15
+naive_bayes,disabled people,counter_quote_nh,non-hateful,26.0,0.07692307692307693,0.4230769230769231,0.9230769230769231
+naive_bayes,disabled people,counter_ref_nh,non-hateful,21.0,0.09523809523809523,0.47619047619047616,0.9047619047619048
+naive_bayes,disabled people,derog_dehum_h,hateful,20.0,0.55,0.75,0.55
+naive_bayes,disabled people,derog_impl_h,hateful,20.0,0.2,0.25,0.2
+naive_bayes,disabled people,derog_neg_attrib_h,hateful,20.0,0.15,0.5,0.15
+naive_bayes,disabled people,derog_neg_emote_h,hateful,20.0,0.15,0.2,0.15
+naive_bayes,disabled people,ident_neutral_nh,non-hateful,18.0,0.0,0.05555555555555555,1.0
+naive_bayes,disabled people,ident_pos_nh,non-hateful,27.0,0.07407407407407407,0.25925925925925924,0.9259259259259259
+naive_bayes,disabled people,negate_neg_nh,non-hateful,19.0,0.21052631578947367,0.3684210526315789,0.7894736842105263
+naive_bayes,disabled people,negate_pos_h,hateful,20.0,0.25,0.45,0.25
+naive_bayes,disabled people,phrase_opinion_h,hateful,19.0,0.2631578947368421,0.5789473684210527,0.2631578947368421
+naive_bayes,disabled people,phrase_question_h,hateful,20.0,0.2,0.4,0.2
+naive_bayes,disabled people,profanity_h,hateful,20.0,0.3,0.75,0.3
+naive_bayes,disabled people,ref_subs_clause_h,hateful,20.0,0.2,0.55,0.2
+naive_bayes,disabled people,ref_subs_sent_h,hateful,19.0,0.0,0.631578947368421,0.0
+naive_bayes,disabled people,slur_h,hateful,24.0,0.3333333333333333,0.6666666666666666,0.3333333333333333
+naive_bayes,disabled people,spell_char_del_h,hateful,20.0,0.2,0.45,0.2
+naive_bayes,disabled people,spell_char_swap_h,hateful,19.0,0.0,0.15789473684210525,0.0
+naive_bayes,disabled people,spell_leet_h,hateful,26.0,0.19230769230769232,0.3076923076923077,0.19230769230769232
+naive_bayes,disabled people,spell_space_add_h,hateful,26.0,0.15384615384615385,0.23076923076923078,0.15384615384615385
+naive_bayes,disabled people,spell_space_del_h,hateful,21.0,0.2857142857142857,0.38095238095238093,0.2857142857142857
+naive_bayes,disabled people,threat_dir_h,hateful,19.0,0.05263157894736842,0.10526315789473684,0.05263157894736842
+naive_bayes,disabled people,threat_norm_h,hateful,20.0,0.2,0.35,0.2
+naive_bayes,gay people,counter_quote_nh,non-hateful,26.0,0.11538461538461539,0.4230769230769231,0.8846153846153846
+naive_bayes,gay people,counter_ref_nh,non-hateful,21.0,0.0,0.38095238095238093,1.0
+naive_bayes,gay people,derog_dehum_h,hateful,20.0,0.15,0.7,0.15
+naive_bayes,gay people,derog_impl_h,hateful,20.0,0.1,0.2,0.1
+naive_bayes,gay people,derog_neg_attrib_h,hateful,20.0,0.05,0.5,0.05
+naive_bayes,gay people,derog_neg_emote_h,hateful,20.0,0.05,0.15,0.05
+naive_bayes,gay people,ident_neutral_nh,non-hateful,18.0,0.0,0.05555555555555555,1.0
+naive_bayes,gay people,ident_pos_nh,non-hateful,27.0,0.0,0.25925925925925924,1.0
+naive_bayes,gay people,negate_neg_nh,non-hateful,19.0,0.05263157894736842,0.21052631578947367,0.9473684210526315
+naive_bayes,gay people,negate_pos_h,hateful,20.0,0.0,0.2,0.0
+naive_bayes,gay people,phrase_opinion_h,hateful,19.0,0.0,0.5789473684210527,0.0
+naive_bayes,gay people,phrase_question_h,hateful,20.0,0.05,0.3,0.05
+naive_bayes,gay people,profanity_h,hateful,20.0,0.15,0.65,0.15
+naive_bayes,gay people,ref_subs_clause_h,hateful,20.0,0.05,0.45,0.05
+naive_bayes,gay people,ref_subs_sent_h,hateful,19.0,0.0,0.631578947368421,0.0
+naive_bayes,gay people,slur_h,hateful,24.0,0.5416666666666666,0.6666666666666666,0.5416666666666666
+naive_bayes,gay people,slur_homonym_nh,non-hateful,20.0,0.5,0.6,0.5
+naive_bayes,gay people,slur_reclaimed_nh,non-hateful,47.0,0.23404255319148937,0.5106382978723404,0.7659574468085106
+naive_bayes,gay people,spell_char_del_h,hateful,20.0,0.15,0.45,0.15
+naive_bayes,gay people,spell_char_swap_h,hateful,19.0,0.0,0.21052631578947367,0.0
+naive_bayes,gay people,spell_leet_h,hateful,26.0,0.19230769230769232,0.34615384615384615,0.19230769230769232
+naive_bayes,gay people,spell_space_add_h,hateful,26.0,0.15384615384615385,0.23076923076923078,0.15384615384615385
+naive_bayes,gay people,spell_space_del_h,hateful,21.0,0.23809523809523808,0.38095238095238093,0.23809523809523808
+naive_bayes,gay people,threat_dir_h,hateful,19.0,0.0,0.10526315789473684,0.0
+naive_bayes,gay people,threat_norm_h,hateful,20.0,0.0,0.25,0.0
+naive_bayes,immigrants,counter_quote_nh,non-hateful,23.0,0.08695652173913043,0.43478260869565216,0.9130434782608695
+naive_bayes,immigrants,counter_ref_nh,non-hateful,19.0,0.05263157894736842,0.47368421052631576,0.9473684210526315
+naive_bayes,immigrants,derog_dehum_h,hateful,20.0,0.1,0.75,0.1
+naive_bayes,immigrants,derog_impl_h,hateful,20.0,0.15,0.25,0.15
+naive_bayes,immigrants,derog_neg_attrib_h,hateful,20.0,0.1,0.6,0.1
+naive_bayes,immigrants,derog_neg_emote_h,hateful,20.0,0.0,0.15,0.0
+naive_bayes,immigrants,ident_neutral_nh,non-hateful,18.0,0.0,0.1111111111111111,1.0
+naive_bayes,immigrants,ident_pos_nh,non-hateful,27.0,0.0,0.3333333333333333,1.0
+naive_bayes,immigrants,negate_neg_nh,non-hateful,19.0,0.05263157894736842,0.3684210526315789,0.9473684210526315
+naive_bayes,immigrants,negate_pos_h,hateful,20.0,0.05,0.3,0.05
+naive_bayes,immigrants,phrase_opinion_h,hateful,19.0,0.0,0.5263157894736842,0.0
+naive_bayes,immigrants,phrase_question_h,hateful,20.0,0.1,0.45,0.1
+naive_bayes,immigrants,profanity_h,hateful,20.0,0.15,0.8,0.15
+naive_bayes,immigrants,ref_subs_clause_h,hateful,20.0,0.05,0.45,0.05
+naive_bayes,immigrants,ref_subs_sent_h,hateful,19.0,0.0,0.631578947368421,0.0
+naive_bayes,immigrants,slur_h,hateful,16.0,0.9375,1.0,0.9375
+naive_bayes,immigrants,spell_char_del_h,hateful,20.0,0.35,0.65,0.35
+naive_bayes,immigrants,spell_char_swap_h,hateful,19.0,0.0,0.10526315789473684,0.0
+naive_bayes,immigrants,spell_leet_h,hateful,23.0,0.2608695652173913,0.34782608695652173,0.2608695652173913
+naive_bayes,immigrants,spell_space_add_h,hateful,23.0,0.30434782608695654,0.34782608695652173,0.30434782608695654
+naive_bayes,immigrants,spell_space_del_h,hateful,19.0,0.21052631578947367,0.42105263157894735,0.21052631578947367
+naive_bayes,immigrants,threat_dir_h,hateful,19.0,0.0,0.15789473684210525,0.0
+naive_bayes,immigrants,threat_norm_h,hateful,20.0,0.05,0.25,0.05
+naive_bayes,trans people,counter_quote_nh,non-hateful,23.0,0.08695652173913043,0.2608695652173913,0.9130434782608695
+naive_bayes,trans people,counter_ref_nh,non-hateful,19.0,0.05263157894736842,0.3157894736842105,0.9473684210526315
+naive_bayes,trans people,derog_dehum_h,hateful,20.0,0.05,0.35,0.05
+naive_bayes,trans people,derog_impl_h,hateful,20.0,0.0,0.0,0.0
+naive_bayes,trans people,derog_neg_attrib_h,hateful,20.0,0.05,0.15,0.05
+naive_bayes,trans people,derog_neg_emote_h,hateful,20.0,0.0,0.1,0.0
+naive_bayes,trans people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+naive_bayes,trans people,ident_pos_nh,non-hateful,27.0,0.0,0.07407407407407407,1.0
+naive_bayes,trans people,negate_neg_nh,non-hateful,19.0,0.0,0.15789473684210525,1.0
+naive_bayes,trans people,negate_pos_h,hateful,20.0,0.0,0.05,0.0
+naive_bayes,trans people,phrase_opinion_h,hateful,19.0,0.0,0.10526315789473684,0.0
+naive_bayes,trans people,phrase_question_h,hateful,20.0,0.05,0.2,0.05
+naive_bayes,trans people,profanity_h,hateful,20.0,0.0,0.3,0.0
+naive_bayes,trans people,ref_subs_clause_h,hateful,20.0,0.0,0.15,0.0
+naive_bayes,trans people,ref_subs_sent_h,hateful,19.0,0.0,0.42105263157894735,0.0
+naive_bayes,trans people,slur_h,hateful,16.0,0.6875,0.75,0.6875
+naive_bayes,trans people,spell_char_del_h,hateful,20.0,0.15,0.35,0.15
+naive_bayes,trans people,spell_char_swap_h,hateful,19.0,0.0,0.10526315789473684,0.0
+naive_bayes,trans people,spell_leet_h,hateful,23.0,0.17391304347826086,0.21739130434782608,0.17391304347826086
+naive_bayes,trans people,spell_space_add_h,hateful,23.0,0.13043478260869565,0.17391304347826086,0.13043478260869565
+naive_bayes,trans people,spell_space_del_h,hateful,19.0,0.21052631578947367,0.21052631578947367,0.21052631578947367
+naive_bayes,trans people,threat_dir_h,hateful,19.0,0.0,0.05263157894736842,0.0
+naive_bayes,trans people,threat_norm_h,hateful,20.0,0.0,0.05,0.0
+naive_bayes,women,counter_quote_nh,non-hateful,26.0,0.11538461538461539,0.4230769230769231,0.8846153846153846
+naive_bayes,women,counter_ref_nh,non-hateful,21.0,0.09523809523809523,0.42857142857142855,0.9047619047619048
+naive_bayes,women,derog_dehum_h,hateful,20.0,0.4,0.75,0.4
+naive_bayes,women,derog_impl_h,hateful,20.0,0.5,0.55,0.5
+naive_bayes,women,derog_neg_attrib_h,hateful,20.0,0.2,0.55,0.2
+naive_bayes,women,derog_neg_emote_h,hateful,20.0,0.15,0.25,0.15
+naive_bayes,women,ident_neutral_nh,non-hateful,18.0,0.1111111111111111,0.2222222222222222,0.8888888888888888
+naive_bayes,women,ident_pos_nh,non-hateful,27.0,0.037037037037037035,0.2962962962962963,0.9629629629629629
+naive_bayes,women,negate_neg_nh,non-hateful,19.0,0.2631578947368421,0.47368421052631576,0.7368421052631579
+naive_bayes,women,negate_pos_h,hateful,20.0,0.2,0.4,0.2
+naive_bayes,women,phrase_opinion_h,hateful,19.0,0.21052631578947367,0.5789473684210527,0.21052631578947367
+naive_bayes,women,phrase_question_h,hateful,20.0,0.2,0.5,0.2
+naive_bayes,women,profanity_h,hateful,20.0,0.35,0.85,0.35
+naive_bayes,women,ref_subs_clause_h,hateful,20.0,0.25,0.55,0.25
+naive_bayes,women,ref_subs_sent_h,hateful,19.0,0.0,0.631578947368421,0.0
+naive_bayes,women,slur_h,hateful,24.0,0.4166666666666667,1.0,0.4166666666666667
+naive_bayes,women,slur_homonym_nh,non-hateful,10.0,0.0,0.9,1.0
+naive_bayes,women,slur_reclaimed_nh,non-hateful,15.0,0.0,0.6,1.0
+naive_bayes,women,spell_char_del_h,hateful,20.0,0.4,0.6,0.4
+naive_bayes,women,spell_char_swap_h,hateful,19.0,0.05263157894736842,0.21052631578947367,0.05263157894736842
+naive_bayes,women,spell_leet_h,hateful,26.0,0.2692307692307692,0.38461538461538464,0.2692307692307692
+naive_bayes,women,spell_space_add_h,hateful,26.0,0.3076923076923077,0.38461538461538464,0.3076923076923077
+naive_bayes,women,spell_space_del_h,hateful,21.0,0.23809523809523808,0.38095238095238093,0.23809523809523808
+naive_bayes,women,threat_dir_h,hateful,19.0,0.21052631578947367,0.3157894736842105,0.21052631578947367
+naive_bayes,women,threat_norm_h,hateful,20.0,0.25,0.35,0.25
+tfidf_linear_svc,all,counter_quote_nh,non-hateful,173.0,0.13872832369942195,0.20809248554913296,0.861271676300578
+tfidf_linear_svc,all,counter_ref_nh,non-hateful,141.0,0.04964539007092199,0.2907801418439716,0.950354609929078
+tfidf_linear_svc,all,derog_dehum_h,hateful,140.0,0.19285714285714287,0.32857142857142857,0.19285714285714287
+tfidf_linear_svc,all,derog_impl_h,hateful,140.0,0.12857142857142856,0.22142857142857142,0.12857142857142856
+tfidf_linear_svc,all,derog_neg_attrib_h,hateful,140.0,0.07142857142857142,0.22857142857142856,0.07142857142857142
+tfidf_linear_svc,all,derog_neg_emote_h,hateful,140.0,0.05714285714285714,0.15714285714285714,0.05714285714285714
+tfidf_linear_svc,all,ident_neutral_nh,non-hateful,126.0,0.015873015873015872,0.20634920634920634,0.9841269841269841
+tfidf_linear_svc,all,ident_pos_nh,non-hateful,189.0,0.047619047619047616,0.1164021164021164,0.9523809523809523
+tfidf_linear_svc,all,negate_neg_nh,non-hateful,133.0,0.10526315789473684,0.24812030075187969,0.8947368421052632
+tfidf_linear_svc,all,negate_pos_h,hateful,140.0,0.12857142857142856,0.25,0.12857142857142856
+tfidf_linear_svc,all,phrase_opinion_h,hateful,133.0,0.09774436090225563,0.17293233082706766,0.09774436090225563
+tfidf_linear_svc,all,phrase_question_h,hateful,140.0,0.06428571428571428,0.29285714285714287,0.06428571428571428
+tfidf_linear_svc,all,profanity_h,hateful,140.0,0.24285714285714285,0.5357142857142857,0.24285714285714285
+tfidf_linear_svc,all,profanity_nh,non-hateful,100.0,0.16,0.36,0.84
+tfidf_linear_svc,all,ref_subs_clause_h,hateful,140.0,0.11428571428571428,0.3357142857142857,0.11428571428571428
+tfidf_linear_svc,all,ref_subs_sent_h,hateful,133.0,0.05263157894736842,0.22556390977443608,0.05263157894736842
+tfidf_linear_svc,all,slur_h,hateful,144.0,0.4513888888888889,0.7291666666666666,0.4513888888888889
+tfidf_linear_svc,all,slur_homonym_nh,non-hateful,30.0,0.2,0.6333333333333333,0.8
+tfidf_linear_svc,all,slur_reclaimed_nh,non-hateful,81.0,0.07407407407407407,0.2839506172839506,0.9259259259259259
+tfidf_linear_svc,all,spell_char_del_h,hateful,140.0,0.14285714285714285,0.2857142857142857,0.14285714285714285
+tfidf_linear_svc,all,spell_char_swap_h,hateful,133.0,0.06015037593984962,0.17293233082706766,0.06015037593984962
+tfidf_linear_svc,all,spell_leet_h,hateful,173.0,0.12138728323699421,0.2254335260115607,0.12138728323699421
+tfidf_linear_svc,all,spell_space_add_h,hateful,173.0,0.09826589595375723,0.1676300578034682,0.09826589595375723
+tfidf_linear_svc,all,spell_space_del_h,hateful,141.0,0.22695035460992907,0.28368794326241137,0.22695035460992907
+tfidf_linear_svc,all,target_group_nh,non-hateful,62.0,0.1935483870967742,0.43548387096774194,0.8064516129032258
+tfidf_linear_svc,all,target_indiv_nh,non-hateful,65.0,0.24615384615384617,0.38461538461538464,0.7538461538461538
+tfidf_linear_svc,all,target_obj_nh,non-hateful,65.0,0.12307692307692308,0.4153846153846154,0.8769230769230769
+tfidf_linear_svc,all,threat_dir_h,hateful,133.0,0.09774436090225563,0.14285714285714285,0.09774436090225563
+tfidf_linear_svc,all,threat_norm_h,hateful,140.0,0.15,0.20714285714285716,0.15
+tfidf_linear_svc,Muslims,counter_quote_nh,non-hateful,26.0,0.5384615384615384,0.6538461538461539,0.46153846153846156
+tfidf_linear_svc,Muslims,counter_ref_nh,non-hateful,21.0,0.23809523809523808,0.5714285714285714,0.7619047619047619
+tfidf_linear_svc,Muslims,derog_dehum_h,hateful,20.0,0.75,0.9,0.75
+tfidf_linear_svc,Muslims,derog_impl_h,hateful,20.0,0.45,0.6,0.45
+tfidf_linear_svc,Muslims,derog_neg_attrib_h,hateful,20.0,0.35,0.75,0.35
+tfidf_linear_svc,Muslims,derog_neg_emote_h,hateful,20.0,0.35,0.6,0.35
+tfidf_linear_svc,Muslims,ident_neutral_nh,non-hateful,18.0,0.1111111111111111,0.5555555555555556,0.8888888888888888
+tfidf_linear_svc,Muslims,ident_pos_nh,non-hateful,27.0,0.3333333333333333,0.5925925925925926,0.6666666666666666
+tfidf_linear_svc,Muslims,negate_neg_nh,non-hateful,19.0,0.5263157894736842,0.7368421052631579,0.47368421052631576
+tfidf_linear_svc,Muslims,negate_pos_h,hateful,20.0,0.45,0.7,0.45
+tfidf_linear_svc,Muslims,phrase_opinion_h,hateful,19.0,0.6842105263157895,0.8947368421052632,0.6842105263157895
+tfidf_linear_svc,Muslims,phrase_question_h,hateful,20.0,0.25,0.7,0.25
+tfidf_linear_svc,Muslims,profanity_h,hateful,20.0,0.6,1.0,0.6
+tfidf_linear_svc,Muslims,ref_subs_clause_h,hateful,20.0,0.5,0.75,0.5
+tfidf_linear_svc,Muslims,ref_subs_sent_h,hateful,19.0,0.2631578947368421,0.7368421052631579,0.2631578947368421
+tfidf_linear_svc,Muslims,slur_h,hateful,24.0,0.7083333333333334,0.9583333333333334,0.7083333333333334
+tfidf_linear_svc,Muslims,spell_char_del_h,hateful,20.0,0.45,0.65,0.45
+tfidf_linear_svc,Muslims,spell_char_swap_h,hateful,19.0,0.3684210526315789,0.5789473684210527,0.3684210526315789
+tfidf_linear_svc,Muslims,spell_leet_h,hateful,26.0,0.5,0.7307692307692307,0.5
+tfidf_linear_svc,Muslims,spell_space_add_h,hateful,26.0,0.3076923076923077,0.38461538461538464,0.3076923076923077
+tfidf_linear_svc,Muslims,spell_space_del_h,hateful,21.0,0.7142857142857143,0.8095238095238095,0.7142857142857143
+tfidf_linear_svc,Muslims,threat_dir_h,hateful,19.0,0.42105263157894735,0.5263157894736842,0.42105263157894735
+tfidf_linear_svc,Muslims,threat_norm_h,hateful,20.0,0.5,0.65,0.5
+tfidf_linear_svc,black people,counter_quote_nh,non-hateful,23.0,0.17391304347826086,0.21739130434782608,0.8260869565217391
+tfidf_linear_svc,black people,counter_ref_nh,non-hateful,19.0,0.05263157894736842,0.15789473684210525,0.9473684210526315
+tfidf_linear_svc,black people,derog_dehum_h,hateful,20.0,0.05,0.1,0.05
+tfidf_linear_svc,black people,derog_impl_h,hateful,20.0,0.05,0.1,0.05
+tfidf_linear_svc,black people,derog_neg_attrib_h,hateful,20.0,0.0,0.05,0.0
+tfidf_linear_svc,black people,derog_neg_emote_h,hateful,20.0,0.0,0.0,0.0
+tfidf_linear_svc,black people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+tfidf_linear_svc,black people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+tfidf_linear_svc,black people,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+tfidf_linear_svc,black people,negate_pos_h,hateful,20.0,0.0,0.0,0.0
+tfidf_linear_svc,black people,phrase_opinion_h,hateful,19.0,0.0,0.0,0.0
+tfidf_linear_svc,black people,phrase_question_h,hateful,20.0,0.0,0.15,0.0
+tfidf_linear_svc,black people,profanity_h,hateful,20.0,0.0,0.1,0.0
+tfidf_linear_svc,black people,ref_subs_clause_h,hateful,20.0,0.0,0.2,0.0
+tfidf_linear_svc,black people,ref_subs_sent_h,hateful,19.0,0.0,0.05263157894736842,0.0
+tfidf_linear_svc,black people,slur_h,hateful,16.0,1.0,1.0,1.0
+tfidf_linear_svc,black people,slur_reclaimed_nh,non-hateful,19.0,0.0,0.0,1.0
+tfidf_linear_svc,black people,spell_char_del_h,hateful,20.0,0.05,0.15,0.05
+tfidf_linear_svc,black people,spell_char_swap_h,hateful,19.0,0.0,0.05263157894736842,0.0
+tfidf_linear_svc,black people,spell_leet_h,hateful,23.0,0.08695652173913043,0.08695652173913043,0.08695652173913043
+tfidf_linear_svc,black people,spell_space_add_h,hateful,23.0,0.043478260869565216,0.08695652173913043,0.043478260869565216
+tfidf_linear_svc,black people,spell_space_del_h,hateful,19.0,0.15789473684210525,0.15789473684210525,0.15789473684210525
+tfidf_linear_svc,black people,threat_dir_h,hateful,19.0,0.0,0.0,0.0
+tfidf_linear_svc,black people,threat_norm_h,hateful,20.0,0.1,0.1,0.1
+tfidf_linear_svc,disabled people,counter_quote_nh,non-hateful,26.0,0.038461538461538464,0.15384615384615385,0.9615384615384616
+tfidf_linear_svc,disabled people,counter_ref_nh,non-hateful,21.0,0.0,0.2857142857142857,1.0
+tfidf_linear_svc,disabled people,derog_dehum_h,hateful,20.0,0.2,0.3,0.2
+tfidf_linear_svc,disabled people,derog_impl_h,hateful,20.0,0.1,0.15,0.1
+tfidf_linear_svc,disabled people,derog_neg_attrib_h,hateful,20.0,0.05,0.1,0.05
+tfidf_linear_svc,disabled people,derog_neg_emote_h,hateful,20.0,0.05,0.1,0.05
+tfidf_linear_svc,disabled people,ident_neutral_nh,non-hateful,18.0,0.0,0.05555555555555555,1.0
+tfidf_linear_svc,disabled people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+tfidf_linear_svc,disabled people,negate_neg_nh,non-hateful,19.0,0.05263157894736842,0.10526315789473684,0.9473684210526315
+tfidf_linear_svc,disabled people,negate_pos_h,hateful,20.0,0.1,0.1,0.1
+tfidf_linear_svc,disabled people,phrase_opinion_h,hateful,19.0,0.0,0.0,0.0
+tfidf_linear_svc,disabled people,phrase_question_h,hateful,20.0,0.05,0.2,0.05
+tfidf_linear_svc,disabled people,profanity_h,hateful,20.0,0.3,0.45,0.3
+tfidf_linear_svc,disabled people,ref_subs_clause_h,hateful,20.0,0.15,0.35,0.15
+tfidf_linear_svc,disabled people,ref_subs_sent_h,hateful,19.0,0.05263157894736842,0.10526315789473684,0.05263157894736842
+tfidf_linear_svc,disabled people,slur_h,hateful,24.0,0.16666666666666666,0.5833333333333334,0.16666666666666666
+tfidf_linear_svc,disabled people,spell_char_del_h,hateful,20.0,0.15,0.25,0.15
+tfidf_linear_svc,disabled people,spell_char_swap_h,hateful,19.0,0.0,0.10526315789473684,0.0
+tfidf_linear_svc,disabled people,spell_leet_h,hateful,26.0,0.07692307692307693,0.11538461538461539,0.07692307692307693
+tfidf_linear_svc,disabled people,spell_space_add_h,hateful,26.0,0.038461538461538464,0.11538461538461539,0.038461538461538464
+tfidf_linear_svc,disabled people,spell_space_del_h,hateful,21.0,0.14285714285714285,0.23809523809523808,0.14285714285714285
+tfidf_linear_svc,disabled people,threat_dir_h,hateful,19.0,0.05263157894736842,0.05263157894736842,0.05263157894736842
+tfidf_linear_svc,disabled people,threat_norm_h,hateful,20.0,0.1,0.1,0.1
+tfidf_linear_svc,gay people,counter_quote_nh,non-hateful,26.0,0.07692307692307693,0.15384615384615385,0.9230769230769231
+tfidf_linear_svc,gay people,counter_ref_nh,non-hateful,21.0,0.0,0.3333333333333333,1.0
+tfidf_linear_svc,gay people,derog_dehum_h,hateful,20.0,0.05,0.25,0.05
+tfidf_linear_svc,gay people,derog_impl_h,hateful,20.0,0.05,0.2,0.05
+tfidf_linear_svc,gay people,derog_neg_attrib_h,hateful,20.0,0.0,0.25,0.0
+tfidf_linear_svc,gay people,derog_neg_emote_h,hateful,20.0,0.0,0.15,0.0
+tfidf_linear_svc,gay people,ident_neutral_nh,non-hateful,18.0,0.0,0.3333333333333333,1.0
+tfidf_linear_svc,gay people,ident_pos_nh,non-hateful,27.0,0.0,0.07407407407407407,1.0
+tfidf_linear_svc,gay people,negate_neg_nh,non-hateful,19.0,0.0,0.3157894736842105,1.0
+tfidf_linear_svc,gay people,negate_pos_h,hateful,20.0,0.0,0.35,0.0
+tfidf_linear_svc,gay people,phrase_opinion_h,hateful,19.0,0.0,0.15789473684210525,0.0
+tfidf_linear_svc,gay people,phrase_question_h,hateful,20.0,0.0,0.3,0.0
+tfidf_linear_svc,gay people,profanity_h,hateful,20.0,0.1,0.55,0.1
+tfidf_linear_svc,gay people,ref_subs_clause_h,hateful,20.0,0.0,0.3,0.0
+tfidf_linear_svc,gay people,ref_subs_sent_h,hateful,19.0,0.0,0.3157894736842105,0.0
+tfidf_linear_svc,gay people,slur_h,hateful,24.0,0.375,0.5833333333333334,0.375
+tfidf_linear_svc,gay people,slur_homonym_nh,non-hateful,20.0,0.3,0.5,0.7
+tfidf_linear_svc,gay people,slur_reclaimed_nh,non-hateful,47.0,0.1276595744680851,0.3191489361702128,0.8723404255319149
+tfidf_linear_svc,gay people,spell_char_del_h,hateful,20.0,0.05,0.25,0.05
+tfidf_linear_svc,gay people,spell_char_swap_h,hateful,19.0,0.0,0.15789473684210525,0.0
+tfidf_linear_svc,gay people,spell_leet_h,hateful,26.0,0.038461538461538464,0.23076923076923078,0.038461538461538464
+tfidf_linear_svc,gay people,spell_space_add_h,hateful,26.0,0.07692307692307693,0.15384615384615385,0.07692307692307693
+tfidf_linear_svc,gay people,spell_space_del_h,hateful,21.0,0.14285714285714285,0.19047619047619047,0.14285714285714285
+tfidf_linear_svc,gay people,threat_dir_h,hateful,19.0,0.0,0.10526315789473684,0.0
+tfidf_linear_svc,gay people,threat_norm_h,hateful,20.0,0.05,0.25,0.05
+tfidf_linear_svc,immigrants,counter_quote_nh,non-hateful,23.0,0.08695652173913043,0.13043478260869565,0.9130434782608695
+tfidf_linear_svc,immigrants,counter_ref_nh,non-hateful,19.0,0.0,0.21052631578947367,1.0
+tfidf_linear_svc,immigrants,derog_dehum_h,hateful,20.0,0.05,0.15,0.05
+tfidf_linear_svc,immigrants,derog_impl_h,hateful,20.0,0.05,0.15,0.05
+tfidf_linear_svc,immigrants,derog_neg_attrib_h,hateful,20.0,0.0,0.1,0.0
+tfidf_linear_svc,immigrants,derog_neg_emote_h,hateful,20.0,0.0,0.1,0.0
+tfidf_linear_svc,immigrants,ident_neutral_nh,non-hateful,18.0,0.0,0.16666666666666666,1.0
+tfidf_linear_svc,immigrants,ident_pos_nh,non-hateful,27.0,0.0,0.07407407407407407,1.0
+tfidf_linear_svc,immigrants,negate_neg_nh,non-hateful,19.0,0.0,0.15789473684210525,1.0
+tfidf_linear_svc,immigrants,negate_pos_h,hateful,20.0,0.05,0.15,0.05
+tfidf_linear_svc,immigrants,phrase_opinion_h,hateful,19.0,0.0,0.05263157894736842,0.0
+tfidf_linear_svc,immigrants,phrase_question_h,hateful,20.0,0.05,0.25,0.05
+tfidf_linear_svc,immigrants,profanity_h,hateful,20.0,0.1,0.45,0.1
+tfidf_linear_svc,immigrants,ref_subs_clause_h,hateful,20.0,0.0,0.2,0.0
+tfidf_linear_svc,immigrants,ref_subs_sent_h,hateful,19.0,0.0,0.15789473684210525,0.0
+tfidf_linear_svc,immigrants,slur_h,hateful,16.0,0.5625,0.5625,0.5625
+tfidf_linear_svc,immigrants,spell_char_del_h,hateful,20.0,0.1,0.2,0.1
+tfidf_linear_svc,immigrants,spell_char_swap_h,hateful,19.0,0.0,0.05263157894736842,0.0
+tfidf_linear_svc,immigrants,spell_leet_h,hateful,23.0,0.08695652173913043,0.13043478260869565,0.08695652173913043
+tfidf_linear_svc,immigrants,spell_space_add_h,hateful,23.0,0.08695652173913043,0.17391304347826086,0.08695652173913043
+tfidf_linear_svc,immigrants,spell_space_del_h,hateful,19.0,0.15789473684210525,0.21052631578947367,0.15789473684210525
+tfidf_linear_svc,immigrants,threat_dir_h,hateful,19.0,0.0,0.05263157894736842,0.0
+tfidf_linear_svc,immigrants,threat_norm_h,hateful,20.0,0.1,0.15,0.1
+tfidf_linear_svc,trans people,counter_quote_nh,non-hateful,23.0,0.043478260869565216,0.043478260869565216,0.9565217391304348
+tfidf_linear_svc,trans people,counter_ref_nh,non-hateful,19.0,0.0,0.15789473684210525,1.0
+tfidf_linear_svc,trans people,derog_dehum_h,hateful,20.0,0.2,0.35,0.2
+tfidf_linear_svc,trans people,derog_impl_h,hateful,20.0,0.05,0.15,0.05
+tfidf_linear_svc,trans people,derog_neg_attrib_h,hateful,20.0,0.05,0.15,0.05
+tfidf_linear_svc,trans people,derog_neg_emote_h,hateful,20.0,0.0,0.05,0.0
+tfidf_linear_svc,trans people,ident_neutral_nh,non-hateful,18.0,0.0,0.05555555555555555,1.0
+tfidf_linear_svc,trans people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+tfidf_linear_svc,trans people,negate_neg_nh,non-hateful,19.0,0.05263157894736842,0.10526315789473684,0.9473684210526315
+tfidf_linear_svc,trans people,negate_pos_h,hateful,20.0,0.1,0.15,0.1
+tfidf_linear_svc,trans people,phrase_opinion_h,hateful,19.0,0.0,0.05263157894736842,0.0
+tfidf_linear_svc,trans people,phrase_question_h,hateful,20.0,0.05,0.2,0.05
+tfidf_linear_svc,trans people,profanity_h,hateful,20.0,0.3,0.55,0.3
+tfidf_linear_svc,trans people,ref_subs_clause_h,hateful,20.0,0.1,0.3,0.1
+tfidf_linear_svc,trans people,ref_subs_sent_h,hateful,19.0,0.05263157894736842,0.10526315789473684,0.05263157894736842
+tfidf_linear_svc,trans people,slur_h,hateful,16.0,0.25,0.5625,0.25
+tfidf_linear_svc,trans people,spell_char_del_h,hateful,20.0,0.1,0.2,0.1
+tfidf_linear_svc,trans people,spell_char_swap_h,hateful,19.0,0.0,0.10526315789473684,0.0
+tfidf_linear_svc,trans people,spell_leet_h,hateful,23.0,0.0,0.08695652173913043,0.0
+tfidf_linear_svc,trans people,spell_space_add_h,hateful,23.0,0.043478260869565216,0.08695652173913043,0.043478260869565216
+tfidf_linear_svc,trans people,spell_space_del_h,hateful,19.0,0.15789473684210525,0.15789473684210525,0.15789473684210525
+tfidf_linear_svc,trans people,threat_dir_h,hateful,19.0,0.05263157894736842,0.05263157894736842,0.05263157894736842
+tfidf_linear_svc,trans people,threat_norm_h,hateful,20.0,0.1,0.1,0.1
+tfidf_linear_svc,women,counter_quote_nh,non-hateful,26.0,0.0,0.07692307692307693,1.0
+tfidf_linear_svc,women,counter_ref_nh,non-hateful,21.0,0.047619047619047616,0.2857142857142857,0.9523809523809523
+tfidf_linear_svc,women,derog_dehum_h,hateful,20.0,0.05,0.25,0.05
+tfidf_linear_svc,women,derog_impl_h,hateful,20.0,0.15,0.2,0.15
+tfidf_linear_svc,women,derog_neg_attrib_h,hateful,20.0,0.05,0.2,0.05
+tfidf_linear_svc,women,derog_neg_emote_h,hateful,20.0,0.0,0.1,0.0
+tfidf_linear_svc,women,ident_neutral_nh,non-hateful,18.0,0.0,0.2777777777777778,1.0
+tfidf_linear_svc,women,ident_pos_nh,non-hateful,27.0,0.0,0.07407407407407407,1.0
+tfidf_linear_svc,women,negate_neg_nh,non-hateful,19.0,0.10526315789473684,0.3157894736842105,0.8947368421052632
+tfidf_linear_svc,women,negate_pos_h,hateful,20.0,0.2,0.3,0.2
+tfidf_linear_svc,women,phrase_opinion_h,hateful,19.0,0.0,0.05263157894736842,0.0
+tfidf_linear_svc,women,phrase_question_h,hateful,20.0,0.05,0.25,0.05
+tfidf_linear_svc,women,profanity_h,hateful,20.0,0.3,0.65,0.3
+tfidf_linear_svc,women,ref_subs_clause_h,hateful,20.0,0.05,0.25,0.05
+tfidf_linear_svc,women,ref_subs_sent_h,hateful,19.0,0.0,0.10526315789473684,0.0
+tfidf_linear_svc,women,slur_h,hateful,24.0,0.25,0.8333333333333334,0.25
+tfidf_linear_svc,women,slur_homonym_nh,non-hateful,10.0,0.0,0.9,1.0
+tfidf_linear_svc,women,slur_reclaimed_nh,non-hateful,15.0,0.0,0.5333333333333333,1.0
+tfidf_linear_svc,women,spell_char_del_h,hateful,20.0,0.1,0.3,0.1
+tfidf_linear_svc,women,spell_char_swap_h,hateful,19.0,0.05263157894736842,0.15789473684210525,0.05263157894736842
+tfidf_linear_svc,women,spell_leet_h,hateful,26.0,0.038461538461538464,0.15384615384615385,0.038461538461538464
+tfidf_linear_svc,women,spell_space_add_h,hateful,26.0,0.07692307692307693,0.15384615384615385,0.07692307692307693
+tfidf_linear_svc,women,spell_space_del_h,hateful,21.0,0.09523809523809523,0.19047619047619047,0.09523809523809523
+tfidf_linear_svc,women,threat_dir_h,hateful,19.0,0.15789473684210525,0.21052631578947367,0.15789473684210525
+tfidf_linear_svc,women,threat_norm_h,hateful,20.0,0.1,0.1,0.1
+roberta_base,all,counter_quote_nh,non-hateful,173.0,0.10019267822736032,0.4123314065510597,0.8998073217726397
+roberta_base,all,counter_ref_nh,non-hateful,141.0,0.018912529550827423,0.20094562647754136,0.9810874704491725
+roberta_base,all,derog_dehum_h,hateful,140.0,0.14523809523809522,0.7404761904761905,0.14523809523809522
+roberta_base,all,derog_impl_h,hateful,140.0,0.12142857142857143,0.5047619047619047,0.12142857142857143
+roberta_base,all,derog_neg_attrib_h,hateful,140.0,0.05238095238095239,0.7380952380952381,0.05238095238095239
+roberta_base,all,derog_neg_emote_h,hateful,140.0,0.11666666666666665,0.5142857142857143,0.11666666666666665
+roberta_base,all,ident_neutral_nh,non-hateful,126.0,0.0,0.031746031746031744,1.0
+roberta_base,all,ident_pos_nh,non-hateful,189.0,0.0,0.04585537918871252,1.0
+roberta_base,all,negate_neg_nh,non-hateful,133.0,0.06265664160401002,0.33082706766917297,0.93734335839599
+roberta_base,all,negate_pos_h,hateful,140.0,0.04285714285714285,0.44047619047619047,0.04285714285714285
+roberta_base,all,phrase_opinion_h,hateful,133.0,0.22556390977443608,0.7719298245614036,0.22556390977443608
+roberta_base,all,phrase_question_h,hateful,140.0,0.14761904761904762,0.7404761904761905,0.14761904761904762
+roberta_base,all,profanity_h,hateful,140.0,0.13809523809523808,0.8714285714285714,0.13809523809523808
+roberta_base,all,profanity_nh,non-hateful,100.0,0.0,0.21666666666666667,1.0
+roberta_base,all,ref_subs_clause_h,hateful,140.0,0.10952380952380952,0.6428571428571428,0.10952380952380952
+roberta_base,all,ref_subs_sent_h,hateful,133.0,0.11278195488721804,0.8045112781954886,0.11278195488721804
+roberta_base,all,slur_h,hateful,144.0,0.4444444444444444,0.9027777777777778,0.4444444444444444
+roberta_base,all,slur_homonym_nh,non-hateful,30.0,0.13333333333333333,0.6222222222222222,0.8666666666666667
+roberta_base,all,slur_reclaimed_nh,non-hateful,81.0,0.037037037037037035,0.419753086419753,0.9629629629629629
+roberta_base,all,spell_char_del_h,hateful,140.0,0.11190476190476191,0.6142857142857143,0.11190476190476191
+roberta_base,all,spell_char_swap_h,hateful,133.0,0.03508771929824561,0.3508771929824561,0.03508771929824561
+roberta_base,all,spell_leet_h,hateful,173.0,0.13680154142581888,0.45664739884393063,0.13680154142581888
+roberta_base,all,spell_space_add_h,hateful,173.0,0.017341040462427744,0.1271676300578035,0.017341040462427744
+roberta_base,all,spell_space_del_h,hateful,141.0,0.23404255319148937,0.6477541371158392,0.23404255319148937
+roberta_base,all,target_group_nh,non-hateful,62.0,0.09139784946236558,0.43548387096774194,0.9086021505376345
+roberta_base,all,target_indiv_nh,non-hateful,65.0,0.08205128205128205,0.36410256410256414,0.9179487179487179
+roberta_base,all,target_obj_nh,non-hateful,65.0,0.010256410256410256,0.11794871794871796,0.9897435897435898
+roberta_base,all,threat_dir_h,hateful,133.0,0.3182957393483709,0.6791979949874687,0.3182957393483709
+roberta_base,all,threat_norm_h,hateful,140.0,0.33095238095238094,0.7333333333333334,0.33095238095238094
+roberta_base,Muslims,counter_quote_nh,non-hateful,26.0,0.23076923076923075,0.5256410256410257,0.7692307692307692
+roberta_base,Muslims,counter_ref_nh,non-hateful,21.0,0.07936507936507936,0.25396825396825395,0.9206349206349206
+roberta_base,Muslims,derog_dehum_h,hateful,20.0,0.4833333333333334,0.9500000000000001,0.4833333333333334
+roberta_base,Muslims,derog_impl_h,hateful,20.0,0.2833333333333334,0.8666666666666666,0.2833333333333334
+roberta_base,Muslims,derog_neg_attrib_h,hateful,20.0,0.21666666666666667,0.9,0.21666666666666667
+roberta_base,Muslims,derog_neg_emote_h,hateful,20.0,0.35000000000000003,0.7333333333333334,0.35000000000000003
+roberta_base,Muslims,ident_neutral_nh,non-hateful,18.0,0.0,0.1111111111111111,1.0
+roberta_base,Muslims,ident_pos_nh,non-hateful,27.0,0.0,0.2098765432098765,1.0
+roberta_base,Muslims,negate_neg_nh,non-hateful,19.0,0.24561403508771928,0.5614035087719298,0.7543859649122807
+roberta_base,Muslims,negate_pos_h,hateful,20.0,0.18333333333333332,0.7833333333333333,0.18333333333333332
+roberta_base,Muslims,phrase_opinion_h,hateful,19.0,0.5964912280701754,0.9649122807017544,0.5964912280701754
+roberta_base,Muslims,phrase_question_h,hateful,20.0,0.4166666666666667,0.8833333333333333,0.4166666666666667
+roberta_base,Muslims,profanity_h,hateful,20.0,0.3666666666666667,1.0,0.3666666666666667
+roberta_base,Muslims,ref_subs_clause_h,hateful,20.0,0.35000000000000003,0.9166666666666666,0.35000000000000003
+roberta_base,Muslims,ref_subs_sent_h,hateful,19.0,0.31578947368421045,0.9824561403508771,0.31578947368421045
+roberta_base,Muslims,slur_h,hateful,24.0,0.6805555555555555,0.9583333333333334,0.6805555555555555
+roberta_base,Muslims,spell_char_del_h,hateful,20.0,0.3,0.8333333333333334,0.3
+roberta_base,Muslims,spell_char_swap_h,hateful,19.0,0.12280701754385964,0.6140350877192983,0.12280701754385964
+roberta_base,Muslims,spell_leet_h,hateful,26.0,0.35897435897435903,0.6538461538461539,0.35897435897435903
+roberta_base,Muslims,spell_space_add_h,hateful,26.0,0.025641025641025644,0.2564102564102564,0.025641025641025644
+roberta_base,Muslims,spell_space_del_h,hateful,21.0,0.5873015873015873,0.9206349206349206,0.5873015873015873
+roberta_base,Muslims,threat_dir_h,hateful,19.0,0.8596491228070176,0.9473684210526315,0.8596491228070176
+roberta_base,Muslims,threat_norm_h,hateful,20.0,0.7833333333333333,0.9500000000000001,0.7833333333333333
+roberta_base,black people,counter_quote_nh,non-hateful,23.0,0.27536231884057977,0.31884057971014496,0.7246376811594203
+roberta_base,black people,counter_ref_nh,non-hateful,19.0,0.03508771929824561,0.15789473684210525,0.9649122807017543
+roberta_base,black people,derog_dehum_h,hateful,20.0,0.31666666666666665,0.6666666666666666,0.31666666666666665
+roberta_base,black people,derog_impl_h,hateful,20.0,0.20000000000000004,0.3666666666666667,0.20000000000000004
+roberta_base,black people,derog_neg_attrib_h,hateful,20.0,0.11666666666666665,0.6333333333333333,0.11666666666666665
+roberta_base,black people,derog_neg_emote_h,hateful,20.0,0.2833333333333333,0.48333333333333334,0.2833333333333333
+roberta_base,black people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+roberta_base,black people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+roberta_base,black people,negate_neg_nh,non-hateful,19.0,0.10526315789473684,0.21052631578947367,0.8947368421052632
+roberta_base,black people,negate_pos_h,hateful,20.0,0.08333333333333333,0.3666666666666667,0.08333333333333333
+roberta_base,black people,phrase_opinion_h,hateful,19.0,0.4561403508771929,0.6666666666666666,0.4561403508771929
+roberta_base,black people,phrase_question_h,hateful,20.0,0.2333333333333333,0.6166666666666666,0.2333333333333333
+roberta_base,black people,profanity_h,hateful,20.0,0.25,0.75,0.25
+roberta_base,black people,ref_subs_clause_h,hateful,20.0,0.13333333333333333,0.4666666666666666,0.13333333333333333
+roberta_base,black people,ref_subs_sent_h,hateful,19.0,0.21052631578947367,0.6666666666666666,0.21052631578947367
+roberta_base,black people,slur_h,hateful,16.0,1.0,1.0,1.0
+roberta_base,black people,slur_reclaimed_nh,non-hateful,19.0,0.0,0.0,1.0
+roberta_base,black people,spell_char_del_h,hateful,20.0,0.13333333333333333,0.4666666666666666,0.13333333333333333
+roberta_base,black people,spell_char_swap_h,hateful,19.0,0.05263157894736842,0.21052631578947367,0.05263157894736842
+roberta_base,black people,spell_leet_h,hateful,23.0,0.10144927536231885,0.30434782608695654,0.10144927536231885
+roberta_base,black people,spell_space_add_h,hateful,23.0,0.028985507246376812,0.13043478260869565,0.028985507246376812
+roberta_base,black people,spell_space_del_h,hateful,19.0,0.42105263157894735,0.5789473684210525,0.42105263157894735
+roberta_base,black people,threat_dir_h,hateful,19.0,0.5087719298245613,0.5087719298245613,0.5087719298245613
+roberta_base,black people,threat_norm_h,hateful,20.0,0.5166666666666667,0.6,0.5166666666666667
+roberta_base,disabled people,counter_quote_nh,non-hateful,26.0,0.0,0.3717948717948718,1.0
+roberta_base,disabled people,counter_ref_nh,non-hateful,21.0,0.0,0.23809523809523805,1.0
+roberta_base,disabled people,derog_dehum_h,hateful,20.0,0.03333333333333333,0.5833333333333334,0.03333333333333333
+roberta_base,disabled people,derog_impl_h,hateful,20.0,0.05000000000000001,0.35000000000000003,0.05000000000000001
+roberta_base,disabled people,derog_neg_attrib_h,hateful,20.0,0.0,0.7166666666666667,0.0
+roberta_base,disabled people,derog_neg_emote_h,hateful,20.0,0.0,0.3833333333333333,0.0
+roberta_base,disabled people,ident_neutral_nh,non-hateful,18.0,0.0,0.037037037037037035,1.0
+roberta_base,disabled people,ident_pos_nh,non-hateful,27.0,0.0,0.024691358024691357,1.0
+roberta_base,disabled people,negate_neg_nh,non-hateful,19.0,0.0,0.2631578947368421,1.0
+roberta_base,disabled people,negate_pos_h,hateful,20.0,0.0,0.15,0.0
+roberta_base,disabled people,phrase_opinion_h,hateful,19.0,0.03508771929824561,0.736842105263158,0.03508771929824561
+roberta_base,disabled people,phrase_question_h,hateful,20.0,0.03333333333333333,0.75,0.03333333333333333
+roberta_base,disabled people,profanity_h,hateful,20.0,0.05000000000000001,0.8833333333333333,0.05000000000000001
+roberta_base,disabled people,ref_subs_clause_h,hateful,20.0,0.049999999999999996,0.6,0.049999999999999996
+roberta_base,disabled people,ref_subs_sent_h,hateful,19.0,0.017543859649122806,0.7719298245614036,0.017543859649122806
+roberta_base,disabled people,slur_h,hateful,24.0,0.1111111111111111,0.9027777777777777,0.1111111111111111
+roberta_base,disabled people,spell_char_del_h,hateful,20.0,0.06666666666666667,0.5833333333333334,0.06666666666666667
+roberta_base,disabled people,spell_char_swap_h,hateful,19.0,0.0,0.31578947368421045,0.0
+roberta_base,disabled people,spell_leet_h,hateful,26.0,0.025641025641025644,0.5256410256410257,0.025641025641025644
+roberta_base,disabled people,spell_space_add_h,hateful,26.0,0.012820512820512822,0.10256410256410257,0.012820512820512822
+roberta_base,disabled people,spell_space_del_h,hateful,21.0,0.031746031746031744,0.5555555555555555,0.031746031746031744
+roberta_base,disabled people,threat_dir_h,hateful,19.0,0.05263157894736842,0.5964912280701754,0.05263157894736842
+roberta_base,disabled people,threat_norm_h,hateful,20.0,0.09999999999999999,0.6833333333333332,0.09999999999999999
+roberta_base,gay people,counter_quote_nh,non-hateful,26.0,0.05128205128205129,0.48717948717948717,0.9487179487179488
+roberta_base,gay people,counter_ref_nh,non-hateful,21.0,0.0,0.23809523809523805,1.0
+roberta_base,gay people,derog_dehum_h,hateful,20.0,0.06666666666666667,0.9333333333333332,0.06666666666666667
+roberta_base,gay people,derog_impl_h,hateful,20.0,0.11666666666666665,0.7000000000000001,0.11666666666666665
+roberta_base,gay people,derog_neg_attrib_h,hateful,20.0,0.016666666666666666,0.8333333333333334,0.016666666666666666
+roberta_base,gay people,derog_neg_emote_h,hateful,20.0,0.03333333333333333,0.6666666666666666,0.03333333333333333
+roberta_base,gay people,ident_neutral_nh,non-hateful,18.0,0.0,0.07407407407407407,1.0
+roberta_base,gay people,ident_pos_nh,non-hateful,27.0,0.0,0.06172839506172839,1.0
+roberta_base,gay people,negate_neg_nh,non-hateful,19.0,0.017543859649122806,0.3508771929824561,0.9824561403508771
+roberta_base,gay people,negate_pos_h,hateful,20.0,0.03333333333333333,0.75,0.03333333333333333
+roberta_base,gay people,phrase_opinion_h,hateful,19.0,0.15789473684210525,0.8947368421052632,0.15789473684210525
+roberta_base,gay people,phrase_question_h,hateful,20.0,0.08333333333333333,0.8000000000000002,0.08333333333333333
+roberta_base,gay people,profanity_h,hateful,20.0,0.06666666666666667,0.9333333333333332,0.06666666666666667
+roberta_base,gay people,ref_subs_clause_h,hateful,20.0,0.08333333333333333,0.7833333333333333,0.08333333333333333
+roberta_base,gay people,ref_subs_sent_h,hateful,19.0,0.017543859649122806,0.8771929824561403,0.017543859649122806
+roberta_base,gay people,slur_h,hateful,24.0,0.47222222222222215,0.7083333333333334,0.47222222222222215
+roberta_base,gay people,slur_homonym_nh,non-hateful,20.0,0.19999999999999998,0.5333333333333333,0.7999999999999999
+roberta_base,gay people,slur_reclaimed_nh,non-hateful,47.0,0.06382978723404255,0.524822695035461,0.9361702127659575
+roberta_base,gay people,spell_char_del_h,hateful,20.0,0.08333333333333333,0.7166666666666667,0.08333333333333333
+roberta_base,gay people,spell_char_swap_h,hateful,19.0,0.03508771929824561,0.4385964912280702,0.03508771929824561
+roberta_base,gay people,spell_leet_h,hateful,26.0,0.15384615384615385,0.5,0.15384615384615385
+roberta_base,gay people,spell_space_add_h,hateful,26.0,0.012820512820512822,0.20512820512820515,0.012820512820512822
+roberta_base,gay people,spell_space_del_h,hateful,21.0,0.20634920634920637,0.6507936507936507,0.20634920634920637
+roberta_base,gay people,threat_dir_h,hateful,19.0,0.21052631578947367,0.8771929824561404,0.21052631578947367
+roberta_base,gay people,threat_norm_h,hateful,20.0,0.3,0.9500000000000001,0.3
+roberta_base,immigrants,counter_quote_nh,non-hateful,23.0,0.11594202898550725,0.5217391304347826,0.8840579710144927
+roberta_base,immigrants,counter_ref_nh,non-hateful,19.0,0.017543859649122806,0.2631578947368421,0.9824561403508771
+roberta_base,immigrants,derog_dehum_h,hateful,20.0,0.06666666666666667,0.7666666666666666,0.06666666666666667
+roberta_base,immigrants,derog_impl_h,hateful,20.0,0.06666666666666667,0.6333333333333333,0.06666666666666667
+roberta_base,immigrants,derog_neg_attrib_h,hateful,20.0,0.016666666666666666,0.8333333333333334,0.016666666666666666
+roberta_base,immigrants,derog_neg_emote_h,hateful,20.0,0.049999999999999996,0.5666666666666667,0.049999999999999996
+roberta_base,immigrants,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+roberta_base,immigrants,ident_pos_nh,non-hateful,27.0,0.0,0.024691358024691357,1.0
+roberta_base,immigrants,negate_neg_nh,non-hateful,19.0,0.017543859649122806,0.4561403508771929,0.9824561403508771
+roberta_base,immigrants,negate_pos_h,hateful,20.0,0.0,0.5166666666666667,0.0
+roberta_base,immigrants,phrase_opinion_h,hateful,19.0,0.1929824561403509,0.8947368421052632,0.1929824561403509
+roberta_base,immigrants,phrase_question_h,hateful,20.0,0.09999999999999999,0.85,0.09999999999999999
+roberta_base,immigrants,profanity_h,hateful,20.0,0.11666666666666665,0.9500000000000001,0.11666666666666665
+roberta_base,immigrants,ref_subs_clause_h,hateful,20.0,0.08333333333333333,0.7666666666666666,0.08333333333333333
+roberta_base,immigrants,ref_subs_sent_h,hateful,19.0,0.12280701754385964,0.8947368421052632,0.12280701754385964
+roberta_base,immigrants,slur_h,hateful,16.0,0.8541666666666666,0.9791666666666666,0.8541666666666666
+roberta_base,immigrants,spell_char_del_h,hateful,20.0,0.11666666666666665,0.75,0.11666666666666665
+roberta_base,immigrants,spell_char_swap_h,hateful,19.0,0.017543859649122806,0.4385964912280702,0.017543859649122806
+roberta_base,immigrants,spell_leet_h,hateful,23.0,0.15942028985507248,0.3913043478260869,0.15942028985507248
+roberta_base,immigrants,spell_space_add_h,hateful,23.0,0.014492753623188406,0.057971014492753624,0.014492753623188406
+roberta_base,immigrants,spell_space_del_h,hateful,19.0,0.2631578947368421,0.7192982456140351,0.2631578947368421
+roberta_base,immigrants,threat_dir_h,hateful,19.0,0.24561403508771928,0.8245614035087719,0.24561403508771928
+roberta_base,immigrants,threat_norm_h,hateful,20.0,0.26666666666666666,0.8166666666666665,0.26666666666666666
+roberta_base,trans people,counter_quote_nh,non-hateful,23.0,0.043478260869565216,0.30434782608695654,0.9565217391304347
+roberta_base,trans people,counter_ref_nh,non-hateful,19.0,0.0,0.14035087719298245,1.0
+roberta_base,trans people,derog_dehum_h,hateful,20.0,0.0,0.5,0.0
+roberta_base,trans people,derog_impl_h,hateful,20.0,0.03333333333333333,0.26666666666666666,0.03333333333333333
+roberta_base,trans people,derog_neg_attrib_h,hateful,20.0,0.0,0.4666666666666666,0.0
+roberta_base,trans people,derog_neg_emote_h,hateful,20.0,0.0,0.3,0.0
+roberta_base,trans people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+roberta_base,trans people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+roberta_base,trans people,negate_neg_nh,non-hateful,19.0,0.0,0.21052631578947367,1.0
+roberta_base,trans people,negate_pos_h,hateful,20.0,0.0,0.13333333333333333,0.0
+roberta_base,trans people,phrase_opinion_h,hateful,19.0,0.05263157894736842,0.5087719298245613,0.05263157894736842
+roberta_base,trans people,phrase_question_h,hateful,20.0,0.05000000000000001,0.6,0.05000000000000001
+roberta_base,trans people,profanity_h,hateful,20.0,0.05000000000000001,0.6833333333333332,0.05000000000000001
+roberta_base,trans people,ref_subs_clause_h,hateful,20.0,0.016666666666666666,0.45,0.016666666666666666
+roberta_base,trans people,ref_subs_sent_h,hateful,19.0,0.017543859649122806,0.6315789473684211,0.017543859649122806
+roberta_base,trans people,slur_h,hateful,16.0,0.25,0.8333333333333334,0.25
+roberta_base,trans people,spell_char_del_h,hateful,20.0,0.03333333333333333,0.31666666666666665,0.03333333333333333
+roberta_base,trans people,spell_char_swap_h,hateful,19.0,0.0,0.14035087719298245,0.0
+roberta_base,trans people,spell_leet_h,hateful,23.0,0.08695652173913043,0.31884057971014496,0.08695652173913043
+roberta_base,trans people,spell_space_add_h,hateful,23.0,0.014492753623188406,0.057971014492753624,0.014492753623188406
+roberta_base,trans people,spell_space_del_h,hateful,19.0,0.05263157894736842,0.4035087719298245,0.05263157894736842
+roberta_base,trans people,threat_dir_h,hateful,19.0,0.07017543859649122,0.5263157894736842,0.07017543859649122
+roberta_base,trans people,threat_norm_h,hateful,20.0,0.11666666666666665,0.5333333333333333,0.11666666666666665
+roberta_base,women,counter_quote_nh,non-hateful,26.0,0.0,0.3461538461538462,1.0
+roberta_base,women,counter_ref_nh,non-hateful,21.0,0.0,0.1111111111111111,1.0
+roberta_base,women,derog_dehum_h,hateful,20.0,0.05000000000000001,0.7833333333333333,0.05000000000000001
+roberta_base,women,derog_impl_h,hateful,20.0,0.10000000000000002,0.35000000000000003,0.10000000000000002
+roberta_base,women,derog_neg_attrib_h,hateful,20.0,0.0,0.7833333333333333,0.0
+roberta_base,women,derog_neg_emote_h,hateful,20.0,0.09999999999999999,0.4666666666666666,0.09999999999999999
+roberta_base,women,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+roberta_base,women,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+roberta_base,women,negate_neg_nh,non-hateful,19.0,0.05263157894736842,0.2631578947368421,0.9473684210526315
+roberta_base,women,negate_pos_h,hateful,20.0,0.0,0.38333333333333336,0.0
+roberta_base,women,phrase_opinion_h,hateful,19.0,0.08771929824561403,0.7368421052631579,0.08771929824561403
+roberta_base,women,phrase_question_h,hateful,20.0,0.11666666666666665,0.6833333333333332,0.11666666666666665
+roberta_base,women,profanity_h,hateful,20.0,0.06666666666666667,0.9,0.06666666666666667
+roberta_base,women,ref_subs_clause_h,hateful,20.0,0.049999999999999996,0.5166666666666667,0.049999999999999996
+roberta_base,women,ref_subs_sent_h,hateful,19.0,0.08771929824561403,0.8070175438596491,0.08771929824561403
+roberta_base,women,slur_h,hateful,24.0,0.0,0.9722222222222222,0.0
+roberta_base,women,slur_homonym_nh,non-hateful,10.0,0.0,0.7999999999999999,1.0
+roberta_base,women,slur_reclaimed_nh,non-hateful,15.0,0.0,0.6222222222222222,1.0
+roberta_base,women,spell_char_del_h,hateful,20.0,0.05000000000000001,0.6333333333333333,0.05000000000000001
+roberta_base,women,spell_char_swap_h,hateful,19.0,0.017543859649122806,0.2982456140350877,0.017543859649122806
+roberta_base,women,spell_leet_h,hateful,26.0,0.06410256410256411,0.4615384615384615,0.06410256410256411
+roberta_base,women,spell_space_add_h,hateful,26.0,0.012820512820512822,0.06410256410256411,0.012820512820512822
+roberta_base,women,spell_space_del_h,hateful,21.0,0.07936507936507936,0.6825396825396827,0.07936507936507936
+roberta_base,women,threat_dir_h,hateful,19.0,0.2807017543859649,0.47368421052631576,0.2807017543859649
+roberta_base,women,threat_norm_h,hateful,20.0,0.2333333333333333,0.6,0.2333333333333333
+llm_zero_shot_haiku_corpus,all,counter_quote_nh,non-hateful,173.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,all,counter_ref_nh,non-hateful,141.0,0.0,0.09929078014184398,1.0
+llm_zero_shot_haiku_corpus,all,derog_dehum_h,hateful,140.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,all,derog_impl_h,hateful,140.0,0.9714285714285714,1.0,0.9714285714285714
+llm_zero_shot_haiku_corpus,all,derog_neg_attrib_h,hateful,140.0,0.9785714285714285,1.0,0.9785714285714285
+llm_zero_shot_haiku_corpus,all,derog_neg_emote_h,hateful,140.0,0.9428571428571428,1.0,0.9428571428571428
+llm_zero_shot_haiku_corpus,all,ident_neutral_nh,non-hateful,126.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,all,ident_pos_nh,non-hateful,189.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,all,negate_neg_nh,non-hateful,133.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,all,negate_pos_h,hateful,140.0,0.9857142857142858,1.0,0.9857142857142858
+llm_zero_shot_haiku_corpus,all,phrase_opinion_h,hateful,133.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,all,phrase_question_h,hateful,140.0,0.9357142857142857,0.9642857142857143,0.9357142857142857
+llm_zero_shot_haiku_corpus,all,profanity_h,hateful,140.0,0.9785714285714285,1.0,0.9785714285714285
+llm_zero_shot_haiku_corpus,all,profanity_nh,non-hateful,100.0,0.0,0.51,1.0
+llm_zero_shot_haiku_corpus,all,ref_subs_clause_h,hateful,140.0,0.9785714285714285,1.0,0.9785714285714285
+llm_zero_shot_haiku_corpus,all,ref_subs_sent_h,hateful,133.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,all,slur_h,hateful,144.0,0.7569444444444444,1.0,0.7569444444444444
+llm_zero_shot_haiku_corpus,all,slur_homonym_nh,non-hateful,30.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,all,slur_reclaimed_nh,non-hateful,81.0,0.0,0.08641975308641975,1.0
+llm_zero_shot_haiku_corpus,all,spell_char_del_h,hateful,140.0,0.9714285714285714,1.0,0.9714285714285714
+llm_zero_shot_haiku_corpus,all,spell_char_swap_h,hateful,133.0,0.9699248120300752,1.0,0.9699248120300752
+llm_zero_shot_haiku_corpus,all,spell_leet_h,hateful,173.0,0.9248554913294798,1.0,0.9248554913294798
+llm_zero_shot_haiku_corpus,all,spell_space_add_h,hateful,173.0,0.9364161849710982,1.0,0.9364161849710982
+llm_zero_shot_haiku_corpus,all,spell_space_del_h,hateful,141.0,0.9219858156028369,0.9929078014184397,0.9219858156028369
+llm_zero_shot_haiku_corpus,all,target_group_nh,non-hateful,62.0,0.0,0.8387096774193549,1.0
+llm_zero_shot_haiku_corpus,all,target_indiv_nh,non-hateful,65.0,0.0,0.9384615384615385,1.0
+llm_zero_shot_haiku_corpus,all,target_obj_nh,non-hateful,65.0,0.0,0.15384615384615385,1.0
+llm_zero_shot_haiku_corpus,all,threat_dir_h,hateful,133.0,0.9473684210526315,1.0,0.9473684210526315
+llm_zero_shot_haiku_corpus,all,threat_norm_h,hateful,140.0,0.9714285714285714,1.0,0.9714285714285714
+llm_zero_shot_haiku_corpus,Muslims,counter_quote_nh,non-hateful,26.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,counter_ref_nh,non-hateful,21.0,0.0,0.047619047619047616,1.0
+llm_zero_shot_haiku_corpus,Muslims,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,derog_impl_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,derog_neg_emote_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,phrase_question_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,slur_h,hateful,24.0,0.875,1.0,0.875
+llm_zero_shot_haiku_corpus,Muslims,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,spell_leet_h,hateful,26.0,0.9615384615384616,1.0,0.9615384615384616
+llm_zero_shot_haiku_corpus,Muslims,spell_space_add_h,hateful,26.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,spell_space_del_h,hateful,21.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,Muslims,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,counter_quote_nh,non-hateful,23.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,black people,counter_ref_nh,non-hateful,19.0,0.0,0.05263157894736842,1.0
+llm_zero_shot_haiku_corpus,black people,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,derog_impl_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,derog_neg_emote_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,black people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,black people,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,black people,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,phrase_question_h,hateful,20.0,0.95,0.95,0.95
+llm_zero_shot_haiku_corpus,black people,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,slur_h,hateful,16.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,slur_reclaimed_nh,non-hateful,19.0,0.0,0.15789473684210525,1.0
+llm_zero_shot_haiku_corpus,black people,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,spell_leet_h,hateful,23.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,spell_space_add_h,hateful,23.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,spell_space_del_h,hateful,19.0,0.9473684210526315,0.9473684210526315,0.9473684210526315
+llm_zero_shot_haiku_corpus,black people,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,black people,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,counter_quote_nh,non-hateful,26.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,counter_ref_nh,non-hateful,21.0,0.0,0.14285714285714285,1.0
+llm_zero_shot_haiku_corpus,disabled people,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,derog_impl_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,derog_neg_emote_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,phrase_question_h,hateful,20.0,0.9,0.95,0.9
+llm_zero_shot_haiku_corpus,disabled people,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,slur_h,hateful,24.0,0.6666666666666666,1.0,0.6666666666666666
+llm_zero_shot_haiku_corpus,disabled people,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,spell_leet_h,hateful,26.0,0.9230769230769231,1.0,0.9230769230769231
+llm_zero_shot_haiku_corpus,disabled people,spell_space_add_h,hateful,26.0,0.9230769230769231,1.0,0.9230769230769231
+llm_zero_shot_haiku_corpus,disabled people,spell_space_del_h,hateful,21.0,0.9523809523809523,1.0,0.9523809523809523
+llm_zero_shot_haiku_corpus,disabled people,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,disabled people,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,counter_quote_nh,non-hateful,26.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,gay people,counter_ref_nh,non-hateful,21.0,0.0,0.09523809523809523,1.0
+llm_zero_shot_haiku_corpus,gay people,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,derog_impl_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,derog_neg_emote_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,gay people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,gay people,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,gay people,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,phrase_question_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,slur_h,hateful,24.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,slur_homonym_nh,non-hateful,20.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,gay people,slur_reclaimed_nh,non-hateful,47.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,gay people,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,spell_leet_h,hateful,26.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,spell_space_add_h,hateful,26.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,spell_space_del_h,hateful,21.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,gay people,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,counter_quote_nh,non-hateful,23.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,counter_ref_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,derog_impl_h,hateful,20.0,0.95,1.0,0.95
+llm_zero_shot_haiku_corpus,immigrants,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,derog_neg_emote_h,hateful,20.0,0.95,1.0,0.95
+llm_zero_shot_haiku_corpus,immigrants,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,phrase_question_h,hateful,20.0,0.95,0.95,0.95
+llm_zero_shot_haiku_corpus,immigrants,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,slur_h,hateful,16.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,spell_leet_h,hateful,23.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,spell_space_add_h,hateful,23.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,spell_space_del_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,immigrants,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,counter_quote_nh,non-hateful,23.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,trans people,counter_ref_nh,non-hateful,19.0,0.0,0.10526315789473684,1.0
+llm_zero_shot_haiku_corpus,trans people,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,derog_impl_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,derog_neg_emote_h,hateful,20.0,0.95,1.0,0.95
+llm_zero_shot_haiku_corpus,trans people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,trans people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,trans people,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,trans people,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,phrase_question_h,hateful,20.0,0.95,0.95,0.95
+llm_zero_shot_haiku_corpus,trans people,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,slur_h,hateful,16.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,spell_leet_h,hateful,23.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,spell_space_add_h,hateful,23.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,spell_space_del_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,trans people,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,women,counter_quote_nh,non-hateful,26.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,women,counter_ref_nh,non-hateful,21.0,0.0,0.23809523809523808,1.0
+llm_zero_shot_haiku_corpus,women,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,women,derog_impl_h,hateful,20.0,0.85,1.0,0.85
+llm_zero_shot_haiku_corpus,women,derog_neg_attrib_h,hateful,20.0,0.85,1.0,0.85
+llm_zero_shot_haiku_corpus,women,derog_neg_emote_h,hateful,20.0,0.7,1.0,0.7
+llm_zero_shot_haiku_corpus,women,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,women,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,women,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,women,negate_pos_h,hateful,20.0,0.9,1.0,0.9
+llm_zero_shot_haiku_corpus,women,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,women,phrase_question_h,hateful,20.0,0.8,0.95,0.8
+llm_zero_shot_haiku_corpus,women,profanity_h,hateful,20.0,0.85,1.0,0.85
+llm_zero_shot_haiku_corpus,women,ref_subs_clause_h,hateful,20.0,0.85,1.0,0.85
+llm_zero_shot_haiku_corpus,women,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_zero_shot_haiku_corpus,women,slur_h,hateful,24.0,0.0,1.0,0.0
+llm_zero_shot_haiku_corpus,women,slur_homonym_nh,non-hateful,10.0,0.0,0.0,1.0
+llm_zero_shot_haiku_corpus,women,slur_reclaimed_nh,non-hateful,15.0,0.0,0.26666666666666666,1.0
+llm_zero_shot_haiku_corpus,women,spell_char_del_h,hateful,20.0,0.8,1.0,0.8
+llm_zero_shot_haiku_corpus,women,spell_char_swap_h,hateful,19.0,0.7894736842105263,1.0,0.7894736842105263
+llm_zero_shot_haiku_corpus,women,spell_leet_h,hateful,26.0,0.6153846153846154,1.0,0.6153846153846154
+llm_zero_shot_haiku_corpus,women,spell_space_add_h,hateful,26.0,0.6538461538461539,1.0,0.6538461538461539
+llm_zero_shot_haiku_corpus,women,spell_space_del_h,hateful,21.0,0.5714285714285714,1.0,0.5714285714285714
+llm_zero_shot_haiku_corpus,women,threat_dir_h,hateful,19.0,0.631578947368421,1.0,0.631578947368421
+llm_zero_shot_haiku_corpus,women,threat_norm_h,hateful,20.0,0.8,1.0,0.8
+llm_few_shot_haiku_corpus,all,counter_quote_nh,non-hateful,173.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,all,counter_ref_nh,non-hateful,141.0,0.0,0.0425531914893617,1.0
+llm_few_shot_haiku_corpus,all,derog_dehum_h,hateful,140.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,all,derog_impl_h,hateful,140.0,0.9571428571428572,0.9785714285714285,0.9571428571428572
+llm_few_shot_haiku_corpus,all,derog_neg_attrib_h,hateful,140.0,0.9928571428571429,1.0,0.9928571428571429
+llm_few_shot_haiku_corpus,all,derog_neg_emote_h,hateful,140.0,0.9857142857142858,1.0,0.9857142857142858
+llm_few_shot_haiku_corpus,all,ident_neutral_nh,non-hateful,126.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,all,ident_pos_nh,non-hateful,189.0,0.005291005291005291,0.005291005291005291,0.9947089947089947
+llm_few_shot_haiku_corpus,all,negate_neg_nh,non-hateful,133.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,all,negate_pos_h,hateful,140.0,0.9857142857142858,1.0,0.9857142857142858
+llm_few_shot_haiku_corpus,all,phrase_opinion_h,hateful,133.0,0.9924812030075187,1.0,0.9924812030075187
+llm_few_shot_haiku_corpus,all,phrase_question_h,hateful,140.0,0.9928571428571429,0.9928571428571429,0.9928571428571429
+llm_few_shot_haiku_corpus,all,profanity_h,hateful,140.0,0.9928571428571429,1.0,0.9928571428571429
+llm_few_shot_haiku_corpus,all,profanity_nh,non-hateful,100.0,0.0,0.75,1.0
+llm_few_shot_haiku_corpus,all,ref_subs_clause_h,hateful,140.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,all,ref_subs_sent_h,hateful,133.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,all,slur_h,hateful,144.0,0.8819444444444444,1.0,0.8819444444444444
+llm_few_shot_haiku_corpus,all,slur_homonym_nh,non-hateful,30.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,all,slur_reclaimed_nh,non-hateful,81.0,0.0,0.13580246913580246,1.0
+llm_few_shot_haiku_corpus,all,spell_char_del_h,hateful,140.0,0.9785714285714285,1.0,0.9785714285714285
+llm_few_shot_haiku_corpus,all,spell_char_swap_h,hateful,133.0,0.9849624060150376,1.0,0.9849624060150376
+llm_few_shot_haiku_corpus,all,spell_leet_h,hateful,173.0,0.9710982658959537,1.0,0.9710982658959537
+llm_few_shot_haiku_corpus,all,spell_space_add_h,hateful,173.0,0.9710982658959537,1.0,0.9710982658959537
+llm_few_shot_haiku_corpus,all,spell_space_del_h,hateful,141.0,0.9716312056737588,1.0,0.9716312056737588
+llm_few_shot_haiku_corpus,all,target_group_nh,non-hateful,62.0,0.016129032258064516,0.8548387096774194,0.9838709677419355
+llm_few_shot_haiku_corpus,all,target_indiv_nh,non-hateful,65.0,0.0,0.9230769230769231,1.0
+llm_few_shot_haiku_corpus,all,target_obj_nh,non-hateful,65.0,0.0,0.2,1.0
+llm_few_shot_haiku_corpus,all,threat_dir_h,hateful,133.0,0.9548872180451128,1.0,0.9548872180451128
+llm_few_shot_haiku_corpus,all,threat_norm_h,hateful,140.0,0.9857142857142858,1.0,0.9857142857142858
+llm_few_shot_haiku_corpus,Muslims,counter_quote_nh,non-hateful,26.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,Muslims,counter_ref_nh,non-hateful,21.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,Muslims,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,derog_impl_h,hateful,20.0,0.95,1.0,0.95
+llm_few_shot_haiku_corpus,Muslims,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,derog_neg_emote_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,Muslims,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,Muslims,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,Muslims,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,phrase_question_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,slur_h,hateful,24.0,0.9583333333333334,1.0,0.9583333333333334
+llm_few_shot_haiku_corpus,Muslims,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,spell_leet_h,hateful,26.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,spell_space_add_h,hateful,26.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,spell_space_del_h,hateful,21.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,Muslims,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,counter_quote_nh,non-hateful,23.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,black people,counter_ref_nh,non-hateful,19.0,0.0,0.05263157894736842,1.0
+llm_few_shot_haiku_corpus,black people,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,derog_impl_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,derog_neg_emote_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,black people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,black people,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,black people,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,phrase_question_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,slur_h,hateful,16.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,slur_reclaimed_nh,non-hateful,19.0,0.0,0.05263157894736842,1.0
+llm_few_shot_haiku_corpus,black people,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,spell_leet_h,hateful,23.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,spell_space_add_h,hateful,23.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,spell_space_del_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,black people,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,counter_quote_nh,non-hateful,26.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,disabled people,counter_ref_nh,non-hateful,21.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,disabled people,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,derog_impl_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,derog_neg_emote_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,disabled people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,disabled people,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,disabled people,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,phrase_question_h,hateful,20.0,0.95,0.95,0.95
+llm_few_shot_haiku_corpus,disabled people,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,slur_h,hateful,24.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,spell_leet_h,hateful,26.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,spell_space_add_h,hateful,26.0,0.9615384615384616,1.0,0.9615384615384616
+llm_few_shot_haiku_corpus,disabled people,spell_space_del_h,hateful,21.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,disabled people,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,counter_quote_nh,non-hateful,26.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,gay people,counter_ref_nh,non-hateful,21.0,0.0,0.047619047619047616,1.0
+llm_few_shot_haiku_corpus,gay people,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,derog_impl_h,hateful,20.0,0.95,1.0,0.95
+llm_few_shot_haiku_corpus,gay people,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,derog_neg_emote_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,gay people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,gay people,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,gay people,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,phrase_question_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,slur_h,hateful,24.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,slur_homonym_nh,non-hateful,20.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,gay people,slur_reclaimed_nh,non-hateful,47.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,gay people,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,spell_leet_h,hateful,26.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,spell_space_add_h,hateful,26.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,spell_space_del_h,hateful,21.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,gay people,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,counter_quote_nh,non-hateful,23.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,immigrants,counter_ref_nh,non-hateful,19.0,0.0,0.05263157894736842,1.0
+llm_few_shot_haiku_corpus,immigrants,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,derog_impl_h,hateful,20.0,0.95,0.95,0.95
+llm_few_shot_haiku_corpus,immigrants,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,derog_neg_emote_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,immigrants,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,immigrants,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,immigrants,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,phrase_question_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,slur_h,hateful,16.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,spell_leet_h,hateful,23.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,spell_space_add_h,hateful,23.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,spell_space_del_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,immigrants,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,counter_quote_nh,non-hateful,23.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,trans people,counter_ref_nh,non-hateful,19.0,0.0,0.05263157894736842,1.0
+llm_few_shot_haiku_corpus,trans people,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,derog_impl_h,hateful,20.0,0.95,0.95,0.95
+llm_few_shot_haiku_corpus,trans people,derog_neg_attrib_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,derog_neg_emote_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,trans people,ident_pos_nh,non-hateful,27.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,trans people,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,trans people,negate_pos_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,phrase_opinion_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,phrase_question_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,profanity_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,slur_h,hateful,16.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,spell_char_del_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,spell_char_swap_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,spell_leet_h,hateful,23.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,spell_space_add_h,hateful,23.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,spell_space_del_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,threat_dir_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,trans people,threat_norm_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,women,counter_quote_nh,non-hateful,26.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,women,counter_ref_nh,non-hateful,21.0,0.0,0.09523809523809523,1.0
+llm_few_shot_haiku_corpus,women,derog_dehum_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,women,derog_impl_h,hateful,20.0,0.9,0.95,0.9
+llm_few_shot_haiku_corpus,women,derog_neg_attrib_h,hateful,20.0,0.95,1.0,0.95
+llm_few_shot_haiku_corpus,women,derog_neg_emote_h,hateful,20.0,0.9,1.0,0.9
+llm_few_shot_haiku_corpus,women,ident_neutral_nh,non-hateful,18.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,women,ident_pos_nh,non-hateful,27.0,0.037037037037037035,0.037037037037037035,0.9629629629629629
+llm_few_shot_haiku_corpus,women,negate_neg_nh,non-hateful,19.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,women,negate_pos_h,hateful,20.0,0.9,1.0,0.9
+llm_few_shot_haiku_corpus,women,phrase_opinion_h,hateful,19.0,0.9473684210526315,1.0,0.9473684210526315
+llm_few_shot_haiku_corpus,women,phrase_question_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,women,profanity_h,hateful,20.0,0.95,1.0,0.95
+llm_few_shot_haiku_corpus,women,ref_subs_clause_h,hateful,20.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,women,ref_subs_sent_h,hateful,19.0,1.0,1.0,1.0
+llm_few_shot_haiku_corpus,women,slur_h,hateful,24.0,0.3333333333333333,1.0,0.3333333333333333
+llm_few_shot_haiku_corpus,women,slur_homonym_nh,non-hateful,10.0,0.0,0.0,1.0
+llm_few_shot_haiku_corpus,women,slur_reclaimed_nh,non-hateful,15.0,0.0,0.6666666666666666,1.0
+llm_few_shot_haiku_corpus,women,spell_char_del_h,hateful,20.0,0.85,1.0,0.85
+llm_few_shot_haiku_corpus,women,spell_char_swap_h,hateful,19.0,0.8947368421052632,1.0,0.8947368421052632
+llm_few_shot_haiku_corpus,women,spell_leet_h,hateful,26.0,0.8076923076923077,1.0,0.8076923076923077
+llm_few_shot_haiku_corpus,women,spell_space_add_h,hateful,26.0,0.8461538461538461,1.0,0.8461538461538461
+llm_few_shot_haiku_corpus,women,spell_space_del_h,hateful,21.0,0.8095238095238095,1.0,0.8095238095238095
+llm_few_shot_haiku_corpus,women,threat_dir_h,hateful,19.0,0.6842105263157895,1.0,0.6842105263157895
+llm_few_shot_haiku_corpus,women,threat_norm_h,hateful,20.0,0.9,1.0,0.9

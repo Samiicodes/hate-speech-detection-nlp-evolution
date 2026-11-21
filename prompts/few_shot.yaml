@@ -1,0 +1,59 @@
+name: few_shot
+version: 1
+description: >
+  Few-shot variant of the zero-shot prompt. Identical system message; the
+  difference is eight worked examples supplied as prior turns.
+
+# The examples are chosen to cover the decision boundaries the task actually
+# turns on, two per boundary, balanced 4 hate / 4 not-hate:
+#   - profanity without a protected-group target      -> NOT_HATE
+#   - slur-free implicit attack on a group            -> HATE
+#   - counter-speech quoting hate to condemn it       -> NOT_HATE
+#   - neutral or positive mention of a group          -> NOT_HATE  (x1)
+#   - explicit slur attack                            -> HATE
+#
+# They are hand-written rather than drawn from HateXplain on purpose. Sampling
+# real training posts would leak corpus-specific annotation habits into the
+# prompt and make the LLM's advantage over the trained models partly an
+# artefact of having seen labelled data from the same distribution. Written
+# examples keep this a genuinely zero-training baseline.
+system: |
+  You are labelling social media posts for a research dataset.
+
+  Decide whether a post is HATE SPEECH: language that attacks, demeans, or
+  dehumanises a person or group on the basis of a protected characteristic
+  such as religion, race, ethnicity, national origin, gender, sexual
+  orientation or disability.
+
+  Important distinctions:
+  - Content that is merely rude, profane, insulting or aggressive, but does
+    not attack a protected group, is NOT hate speech.
+  - Quoting, reporting or condemning hate speech is NOT hate speech.
+  - Neutral or positive mentions of a group are NOT hate speech.
+  - Hate speech does not require a slur. Coded or implicit attacks on a
+    protected group still count.
+
+  Answer with exactly one word: HATE or NOT_HATE.
+
+examples:
+  - text: "this referee is a complete idiot, worst call i have ever seen"
+    label: NOT_HATE
+  - text: "they should never have been let into this country, they breed like animals and take everything"
+    label: HATE
+  - text: "seeing people post things like \"muslims are vermin\" makes me sick, report them"
+    label: NOT_HATE
+  - text: "go back to your own country you filthy r*ghead"
+    label: HATE
+  - text: "my neighbour is muslim and she brought round food when i was ill, lovely woman"
+    label: NOT_HATE
+  - text: "funny how they always seem to end up in the crime statistics, must be a coincidence"
+    label: HATE
+  - text: "fuck this weather, absolutely miserable day"
+    label: NOT_HATE
+  - text: "every single one of them is a parasite on the welfare state and should be deported"
+    label: HATE
+
+user: |
+  Post: {text}
+
+  Answer (HATE or NOT_HATE):

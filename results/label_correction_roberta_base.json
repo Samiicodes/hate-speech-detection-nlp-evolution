@@ -1,0 +1,315 @@
+{
+  "model": "roberta_base",
+  "correction": {
+    "method": "instance reweighting by iterative proportional fitting",
+    "target_hate_share": 0.5199299167761717,
+    "n_posts": 19229,
+    "n_reweighted": 9481,
+    "n_untouched": 9748,
+    "weight_min": 0.24313566168618717,
+    "weight_max": 7.38209746079282,
+    "weight_mean": 1.0,
+    "effective_sample_size": 16898.633697337467,
+    "ess_fraction": 0.8788098027634025,
+    "ipf_iterations": 10,
+    "ipf_max_deviation": 3.4402281023915293e-10,
+    "ipf_converged": true,
+    "multi_target_rule": "groups overlap, so targets are fitted jointly by IPF rather than applied independently",
+    "normal_posts": "weight 1 -- correction targets hate/offensive only",
+    "per_group": {
+      "jewish": {
+        "n_hate": 1393,
+        "n_offensive": 411,
+        "share_before": 0.7721729490022173,
+        "share_after": 0.5199299166566642,
+        "mean_w_hate": 0.7093522853967933,
+        "mean_w_offensive": 2.2198881977665583
+      },
+      "african": {
+        "n_hate": 2246,
+        "n_offensive": 719,
+        "share_before": 0.757504215851602,
+        "share_after": 0.5199299166057672,
+        "mean_w_hate": 0.7036782964478457,
+        "mean_w_offensive": 2.0296205585677574
+      },
+      "hispanic": {
+        "n_hate": 254,
+        "n_offensive": 83,
+        "share_before": 0.7537091988130564,
+        "share_after": 0.5199299164321489,
+        "mean_w_hate": 0.742042111437814,
+        "mean_w_offensive": 2.0967372584039907
+      },
+      "arab": {
+        "n_hate": 505,
+        "n_offensive": 194,
+        "share_before": 0.7224606580829757,
+        "share_after": 0.5199299165414997,
+        "mean_w_hate": 0.7447134940533198,
+        "mean_w_offensive": 1.789940962993249
+      },
+      "islam": {
+        "n_hate": 1197,
+        "n_offensive": 618,
+        "share_before": 0.6595041322314049,
+        "share_after": 0.5199299167078796,
+        "mean_w_hate": 0.8121362840395259,
+        "mean_w_offensive": 1.452427371168202
+      },
+      "asian": {
+        "n_hate": 163,
+        "n_offensive": 135,
+        "share_before": 0.5469798657718121,
+        "share_after": 0.51992991673191,
+        "mean_w_hate": 1.0441261001309774,
+        "mean_w_offensive": 1.1640365663158048
+      },
+      "homosexual": {
+        "n_hate": 718,
+        "n_offensive": 823,
+        "share_before": 0.46593121349772876,
+        "share_after": 0.5199299167352648,
+        "mean_w_hate": 1.1513648541851287,
+        "mean_w_offensive": 0.9274647503919888
+      },
+      "refugee": {
+        "n_hate": 175,
+        "n_offensive": 358,
+        "share_before": 0.32833020637898686,
+        "share_after": 0.5199299167606447,
+        "mean_w_hate": 1.6607359931236312,
+        "mean_w_offensive": 0.7495756249051106
+      },
+      "women": {
+        "n_hate": 379,
+        "n_offensive": 888,
+        "share_before": 0.2991318074191002,
+        "share_after": 0.5199299167711741,
+        "mean_w_hate": 1.7520620965584597,
+        "mean_w_offensive": 0.6904553097097413
+      },
+      "caucasian": {
+        "n_hate": 106,
+        "n_offensive": 265,
+        "share_before": 0.2857142857142857,
+        "share_after": 0.5199299167761716,
+        "mean_w_hate": 1.9594966694358147,
+        "mean_w_offensive": 0.7237096376416692
+      }
+    }
+  },
+  "verification": [
+    {
+      "group": "jewish",
+      "n_hostile": 1804,
+      "share_before": 0.7721729490022173,
+      "share_after_weighted": 0.5199299166566642
+    },
+    {
+      "group": "african",
+      "n_hostile": 2965,
+      "share_before": 0.757504215851602,
+      "share_after_weighted": 0.5199299166057672
+    },
+    {
+      "group": "hispanic",
+      "n_hostile": 337,
+      "share_before": 0.7537091988130564,
+      "share_after_weighted": 0.5199299164321489
+    },
+    {
+      "group": "arab",
+      "n_hostile": 699,
+      "share_before": 0.7224606580829757,
+      "share_after_weighted": 0.5199299165414998
+    },
+    {
+      "group": "islam",
+      "n_hostile": 1815,
+      "share_before": 0.6595041322314049,
+      "share_after_weighted": 0.5199299167078796
+    },
+    {
+      "group": "asian",
+      "n_hostile": 298,
+      "share_before": 0.5469798657718121,
+      "share_after_weighted": 0.51992991673191
+    },
+    {
+      "group": "homosexual",
+      "n_hostile": 1541,
+      "share_before": 0.46593121349772876,
+      "share_after_weighted": 0.5199299167352648
+    },
+    {
+      "group": "refugee",
+      "n_hostile": 533,
+      "share_before": 0.32833020637898686,
+      "share_after_weighted": 0.5199299167606445
+    },
+    {
+      "group": "women",
+      "n_hostile": 1267,
+      "share_before": 0.2991318074191002,
+      "share_after_weighted": 0.5199299167711741
+    },
+    {
+      "group": "caucasian",
+      "n_hostile": 371,
+      "share_before": 0.2857142857142857,
+      "share_after_weighted": 0.5199299167761716
+    }
+  ],
+  "cost": {
+    "baseline_macro_f1": 0.6919455005196729,
+    "corrected_macro_f1": 0.6892355716673243,
+    "macro_f1_change": -0.002709928852348553,
+    "baseline_accuracy": 0.6986842789536637,
+    "corrected_accuracy": 0.6951479536117323
+  },
+  "gradient": {
+    "baseline": {
+      "n_groups": 10,
+      "groups": [
+        "jewish",
+        "african",
+        "hispanic",
+        "arab",
+        "islam",
+        "asian",
+        "homosexual",
+        "refugee",
+        "women",
+        "caucasian"
+      ],
+      "spearman_rho": 0.9030303030303028,
+      "p_value": 0.0003436121977632824,
+      "p_method": "t-approximation",
+      "mean_shift": 0.03666349067071866,
+      "max_positive_shift": {
+        "group": "hispanic",
+        "shift": 0.12900685056965966
+      },
+      "max_negative_shift": {
+        "group": "refugee",
+        "shift": -0.0605477796007442
+      }
+    },
+    "corrected": {
+      "n_groups": 10,
+      "groups": [
+        "jewish",
+        "african",
+        "hispanic",
+        "arab",
+        "islam",
+        "asian",
+        "homosexual",
+        "refugee",
+        "women",
+        "caucasian"
+      ],
+      "spearman_rho": 0.9030303030303028,
+      "p_value": 0.0003436121977632824,
+      "p_method": "t-approximation",
+      "mean_shift": 0.024140949662421706,
+      "max_positive_shift": {
+        "group": "hispanic",
+        "shift": 0.08665224697007612
+      },
+      "max_negative_shift": {
+        "group": "jewish",
+        "shift": -0.0862270030562714
+      }
+    }
+  },
+  "spread": {
+    "human": 0.48645866328793164,
+    "baseline": 0.6149336226044735,
+    "corrected": 0.5094005916906059,
+    "fraction_of_model_spread_removed": 0.171616946991605
+  },
+  "per_group": [
+    {
+      "group": "jewish",
+      "n": 1804,
+      "human": "77.2",
+      "baseline": "80.7",
+      "corrected": "68.6",
+      "change": "-12.1"
+    },
+    {
+      "group": "african",
+      "n": 2965,
+      "human": "75.8",
+      "baseline": "82.2",
+      "corrected": "75.7",
+      "change": "-6.5"
+    },
+    {
+      "group": "hispanic",
+      "n": 337,
+      "human": "75.4",
+      "baseline": "88.3",
+      "corrected": "84.0",
+      "change": "-4.2"
+    },
+    {
+      "group": "arab",
+      "n": 699,
+      "human": "72.2",
+      "baseline": "78.8",
+      "corrected": "71.3",
+      "change": "-7.5"
+    },
+    {
+      "group": "islam",
+      "n": 1815,
+      "human": "66.0",
+      "baseline": "74.8",
+      "corrected": "67.4",
+      "change": "-7.4"
+    },
+    {
+      "group": "asian",
+      "n": 298,
+      "human": "54.7",
+      "baseline": "59.7",
+      "corrected": "57.1",
+      "change": "-2.6"
+    },
+    {
+      "group": "homosexual",
+      "n": 1541,
+      "human": "46.6",
+      "baseline": "46.5",
+      "corrected": "54.2",
+      "change": "+7.7"
+    },
+    {
+      "group": "refugee",
+      "n": 533,
+      "human": "32.8",
+      "baseline": "26.8",
+      "corrected": "38.2",
+      "change": "+11.4"
+    },
+    {
+      "group": "women",
+      "n": 1267,
+      "human": "29.9",
+      "baseline": "28.4",
+      "corrected": "33.1",
+      "change": "+4.7"
+    },
+    {
+      "group": "caucasian",
+      "n": 371,
+      "human": "28.6",
+      "baseline": "29.6",
+      "corrected": "33.7",
+      "change": "+4.0"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "groups": {
+    "muslim": [
+      "muslim",
+      "muslims",
+      "islam",
+      "islamic",
+      "islamist",
+      "islamists"
+    ],
+    "christian": [
+      "christian",
+      "christians",
+      "christianity",
+      "church",
+      "churches"
+    ],
+    "jewish": [
+      "jewish",
+      "jew",
+      "jews",
+      "judaism",
+      "synagogue",
+      "synagogues"
+    ],
+    "hindu": [
+      "hindu",
+      "hindus",
+      "hinduism"
+    ],
+    "sikh": [
+      "sikh",
+      "sikhs",
+      "sikhism"
+    ],
+    "atheist_secular": [
+      "atheist",
+      "atheists",
+      "atheism",
+      "secular",
+      "secularism"
+    ]
+  },
+  "min_viable": 300,
+  "datasets": {
+    "cnn_dailymail": {
+      "hf_name": "abisee/cnn_dailymail",
+      "n_articles": 311971,
+      "counts": {
+        "muslim": {
+          "in_source": 15718,
+          "in_both": 3796
+        },
+        "christian": {
+          "in_source": 18055,
+          "in_both": 3466
+        },
+        "jewish": {
+          "in_source": 4312,
+          "in_both": 879
+        },
+        "hindu": {
+          "in_source": 741,
+          "in_both": 134
+        },
+        "sikh": {
+          "in_source": 353,
+          "in_both": 88
+        },
+        "atheist_secular": {
+          "in_source": 1219,
+          "in_both": 143
+        }
+      },
+      "per_term_source": {
+        "muslim": {
+          "muslim": 7353,
+          "muslims": 3941,
+          "islam": 3954,
+          "islamic": 8628,
+          "islamist": 3293,
+          "islamists": 939
+        },
+        "christian": {
+          "christian": 7877,
+          "christians": 1724,
+          "christianity": 828,
+          "church": 10371,
+          "churches": 1602
+        },
+        "jewish": {
+          "jewish": 3262,
+          "jew": 438,
+          "jews": 1702,
+          "judaism": 259,
+          "synagogue": 312,
+          "synagogues": 146
+        },
+        "hindu": {
+          "hindu": 626,
+          "hindus": 188,
+          "hinduism": 65
+        },
+        "sikh": {
+          "sikh": 307,
+          "sikhs": 116,
+          "sikhism": 29
+        },
+        "atheist_secular": {
+          "atheist": 280,
+          "atheists": 168,
+          "atheism": 68,
+          "secular": 824,
+          "secularism": 84
+        }
+      },
+      "table": [
+        {
+          "group": "muslim",
+          "in_source": 15718,
+          "% of corpus": 5.04,
+          "in_both": 3796,
+          "retention %": 24.2,
+          "95% CI": "[23.5-24.8]",
+          "viable": "yes"
+        },
+        {
+          "group": "christian",
+          "in_source": 18055,
+          "% of corpus": 5.79,
+          "in_both": 3466,
+          "retention %": 19.2,
+          "95% CI": "[18.6-19.8]",
+          "viable": "yes"
+        },
+        {
+          "group": "jewish",
+          "in_source": 4312,
+          "% of corpus": 1.38,
+          "in_both": 879,
+          "retention %": 20.4,
+          "95% CI": "[19.2-21.6]",
+          "viable": "yes"
+        },
+        {
+          "group": "hindu",
+          "in_source": 741,
+          "% of corpus": 0.24,
+          "in_both": 134,
+          "retention %": 18.1,
+          "95% CI": "[15.5-21.0]",
+          "viable": "yes"
+        },
+        {
+          "group": "sikh",
+          "in_source": 353,
+          "% of corpus": 0.11,
+          "in_both": 88,
+          "retention %": 24.9,
+          "95% CI": "[20.7-29.7]",
+          "viable": "yes"
+        },
+        {
+          "group": "atheist_secular",
+          "in_source": 1219,
+          "% of corpus": 0.39,
+          "in_both": 143,
+          "retention %": 11.7,
+          "95% CI": "[10.0-13.7]",
+          "viable": "yes"
+        }
+      ]
+    },
+    "xsum": {
+      "hf_name": "EdinburghNLP/xsum",
+      "n_articles": 226711,
+      "counts": {
+        "muslim": {
+          "in_source": 10143,
+          "in_both": 2109
+        },
+        "christian": {
+          "in_source": 7909,
+          "in_both": 986
+        },
+        "jewish": {
+          "in_source": 1481,
+          "in_both": 218
+        },
+        "hindu": {
+          "in_source": 672,
+          "in_both": 67
+        },
+        "sikh": {
+          "in_source": 200,
+          "in_both": 35
+        },
+        "atheist_secular": {
+          "in_source": 658,
+          "in_both": 32
+        }
+      },
+      "per_term_source": {
+        "muslim": {
+          "muslim": 3601,
+          "muslims": 2153,
+          "islam": 1805,
+          "islamic": 5421,
+          "islamist": 2411,
+          "islamists": 535
+        },
+        "christian": {
+          "christian": 3429,
+          "christians": 670,
+          "christianity": 379,
+          "church": 4309,
+          "churches": 723
+        },
+        "jewish": {
+          "jewish": 1095,
+          "jew": 77,
+          "jews": 665,
+          "judaism": 89,
+          "synagogue": 96,
+          "synagogues": 42
+        },
+        "hindu": {
+          "hindu": 560,
+          "hindus": 188,
+          "hinduism": 50
+        },
+        "sikh": {
+          "sikh": 159,
+          "sikhs": 81,
+          "sikhism": 14
+        },
+        "atheist_secular": {
+          "atheist": 89,
+          "atheists": 38,
+          "atheism": 23,
+          "secular": 511,
+          "secularism": 92
+        }
+      },
+      "table": [
+        {
+          "group": "muslim",
+          "in_source": 10143,
+          "% of corpus": 4.47,
+          "in_both": 2109,
+          "retention %": 20.8,
+          "95% CI": "[20.0-21.6]",
+          "viable": "yes"
+        },
+        {
+          "group": "christian",
+          "in_source": 7909,
+          "% of corpus": 3.49,
+          "in_both": 986,
+          "retention %": 12.5,
+          "95% CI": "[11.8-13.2]",
+          "viable": "yes"
+        },
+        {
+          "group": "jewish",
+          "in_source": 1481,
+          "% of corpus": 0.65,
+          "in_both": 218,
+          "retention %": 14.7,
+          "95% CI": "[13.0-16.6]",
+          "viable": "yes"
+        },
+        {
+          "group": "hindu",
+          "in_source": 672,
+          "% of corpus": 0.3,
+          "in_both": 67,
+          "retention %": 10.0,
+          "95% CI": "[7.9-12.5]",
+          "viable": "yes"
+        },
+        {
+          "group": "sikh",
+          "in_source": 200,
+          "% of corpus": 0.09,
+          "in_both": 35,
+          "retention %": 17.5,
+          "95% CI": "[12.9-23.4]",
+          "viable": "NO"
+        },
+        {
+          "group": "atheist_secular",
+          "in_source": 658,
+          "% of corpus": 0.29,
+          "in_both": 32,
+          "retention %": 4.9,
+          "95% CI": "[3.5-6.8]",
+          "viable": "yes"
+        }
+      ]
+    }
+  }
+}
